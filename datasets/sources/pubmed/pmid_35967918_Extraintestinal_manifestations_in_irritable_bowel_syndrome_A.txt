@@ -1,0 +1,22 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/35967918/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 35967918
+title: Extraintestinal manifestations in irritable bowel syndrome: A systematic review.
+journal: Therapeutic advances in gastroenterology
+year: 2022
+---
+
+BACKGROUND: Irritable bowel syndrome (IBS) is characterized by abdominal pain and altered bowel habits. Further, IBS patients experience a high degree of extraintestinal symptoms.
+
+OBJECTIVES: The aim of this review was to describe the relation between IBS and extraintestinal manifestations and mechanisms and treatments of these extraintestinal manifestations.
+
+DESIGN: The study was performed as a systematic review.
+
+DATA SOURCES AND METHODS: Search terms including extraintestinal manifestations or somatization and IBS were used to scrutinize for publications in Pubmed. In total, 630 publications were identified and 80 were finally included in this review.
+
+RESULTS: About 50% of all IBS patients have extraintestinal manifestations in addition to gastrointestinal symptoms. Somatic pain, fatigue, and sleeping disturbances are most common, and most often described in women. Both extraintestinal manifestations and psychological distress are associated with exaggerated gastrointestinal symptoms, impaired quality of life, and difficulties to treat IBS symptoms. The extraintestinal manifestations render an excess of healthcare costs. Varying etiology and pathophysiology to IBS are discussed, and many patients express a general hypersensitivity. Extraintestinal symptoms are seldom documented at clinical healthcare or included in the assessment of treatment outcomes. A good patient-physician relationship and strengthening of coping mechanisms have rendered less gastrointestinal symptoms, psychological distress, and somatization. Altered lifestyle habits may improve both gastrointestinal and extraintestinal symptoms. Pharmacological treatment, including antidepressant drugs, should be considered when lifestyle advice fails. Teamwork between different specialists and healthcare providers may be of importance in the wide range of symptoms and extraintestinal manifestations.
+
+CONCLUSION: Extraintestinal manifestations are common in IBS patients and is associated with worse suffering and difficulties to treat symptoms. Evaluation and treatment of IBS patients should consider also extraintestinal manifestations and their treatment outcome. Establishment of good relationship, strengthening of coping mechanisms, and education in healthier lifestyle habits are crucial in the management of these patients.

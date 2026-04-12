@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/22632582/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 22632582
+title: Systematic review of diagnostic criteria for IBS demonstrates poor validity and utilization of Rome III.
+journal: Neurogastroenterology and motility
+year: 2012
+---
+
+BACKGROUND: In the absence of a clear biomarker for irritable bowel syndrome (IBS), clinical criteria are used. In this study, we conduct a systematic review to examine the validation and utilization of IBS criteria.
+
+METHODS: A systematic review was performed in two stages. The first was a review of literature from 1978 validating IBS diagnostic criteria. The second stage of review was to select studies published in IBS between 1992 and 2011. This time period was divided into three segments (Rome I era from 1992 to 1999, Rome II era from 2000 to 2006, and Rome III era from 2007 to 2011). The number and type of study (RCT or other) and criteria used were evaluated for each era.
+
+KEY RESULTS: The first stage of the systematic review identified only 14 published studies validating diagnostic tests for IBS (with three studies evaluating more than one criterion). There were eight validations for Manning, three validations for Kruis, four validations for Rome I, three validations for Rome II, and no validation for Rome III. In the second review of utilization of Rome criteria, only 25.7% of published IBS papers used Rome III criteria during the Rome III era (Rome II was used most in 64.8% of studies).
+
+CONCLUSIONS & INFERENCES: This review identified that comparator groups varied widely between studies making comparison of criteria impossible. Manning criteria are the most valid and accurate criteria. More importantly, Rome III is not validated and is poorly adopted in clinical research trial enrollment.

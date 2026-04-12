@@ -1,0 +1,12 @@
+---
+source: PubMed — Irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/15861740/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+BACKGROUND: Irritable bowel syndrome (IBS) a common worldwide problem, particularly women, and presents from the teenage years onward.
+
+OBJECTIVE: This article discusses the causes, diagnosis and management of IBS.
+
+DISCUSSION: Disturbed motility and sensory function underlie much of the disturbance in function that, not infrequently, begins following an episode of gastroenteritis. There is an intimate role for the brain-gut axis in modulating symptoms relating to underlying causes of small bowel bacterial overgrowth, food intolerance and sensitivity, and abnormalities of corticotropin releasing factors. Management requires long term involvement with the patient as there is no single therapeutic strategy that is predictably effective. However, diet, bulking agents, antispasmodics and a variety of alternative therapies including herbs, probiotics, and psychological intervention are important in individual patients.

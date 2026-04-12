@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/40359286/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 40359286
+title: Global prevalence and risk factors of irritable bowel syndrome from 2006 to 2024 using the Rome III and IV criteria: a meta-analysis.
+journal: European journal of gastroenterology & hepatology
+year: 2025
+---
+
+Functional gastrointestinal disorders impact 40% of the global population, with irritable bowel syndrome (IBS) standing out due to its complexity, quality-of-life effects, and economic impact. Our meta-analysis explored the global prevalence of IBS, considering diagnostic criteria, subtypes, sampling methods, geographical variations, and risk factors. The literature search used databases like PubMed and Cochrane Library, focusing on IBS studies from 2006 to June 2024. Eligibility criteria included studies on individuals aged ≥18, based on Rome III/IV criteria, using random or convenience sampling. Data on IBS prevalence, subtypes, and sampling methods were extracted, and statistical analysis was performed using Open MetaAnalyst and the review manager. The study reviewed 96 articles on IBS prevalence using Rome III and IV criteria across 52 countries, revealing a global prevalence of 14.1%. Prevalence varied by subtype: IBS-C (26.1%), IBS-D (26.5%), IBS-M (31.4%), and IBS-U (8.3%). IBS-D was more prevalent under Rome III (26.2%), while IBS-C was more common under Rome IV (34.2%). First-world countries like the UK, China, and Japan had the highest prevalence. Females [odds ratios (OR): 1.49], stress (OR: 2.47), anxiety (OR: 2.93), and depression (OR: 2.24) were significantly more prevalent in IBS patients, while no significant differences were found in smoking, alcohol use, or education levels. This meta-analysis reveals regional and subtype variations in IBS prevalence, with psychological factors significantly impacting its development. The influence of sampling techniques and Rome III/IV criteria on prevalence estimates highlights the need for a multidisciplinary treatment approach, with important implications for IBS management.

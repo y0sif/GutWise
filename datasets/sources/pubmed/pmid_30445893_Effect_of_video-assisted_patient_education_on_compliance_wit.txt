@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/30445893/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 30445893
+title: Effect of video-assisted patient education on compliance with therapy, quality of life, psychomorbidity, and cost of illness in irritable bowel syndrome.
+journal: Postgraduate medicine
+year: 2019
+---
+
+OBJECTIVE: Patient education is important in irritable bowel syndrome (IBS), but its effects on outcomes have not been studied extensively.
+
+METHODS: Patients were enrolled and prospectively divided into an interventional and usual care group. Both received standard of care, but the former additionally received video-assisted patient education. Self-administered questionnaires IBS-quality of life (QOL), Beck Anxiety-Depression Inventory II (BAI, BDI), and Hospital Anxiety and Depression Scale (HADS) were administered at baseline, 3 months, and 6 months. Compliance was defined as drug intake of >80% of the prescribed dose. COI included prospective, prevalence-based, societal perspective.
+
+RESULTS: Of the 107 patients included, 84 [78.5%; male = 66 (78.57%); median age = 44 (range 20-77 years)] completed the follow up. While the median (inter-quartile range; IQR) QOL scores decreased significantly in both the groups (p < 0.001 for either group), the final scores were significantly better in the interventional group [49 (44-52.5) versus 80 (76-103), respectively; p < 0.005]. There was a significant improvement in the BDI; p < 0.001]. However, the rest did not achieve statistical significance. At 6 months, total median (IQR) semi-annual cost per patient was INR 14,639 (8253-17,909) [US $240 (135-294].
+
+CONCLUSION: Video-assisted patient education should be a part of the treatment of IBS since it improves the QOL and depression scores.

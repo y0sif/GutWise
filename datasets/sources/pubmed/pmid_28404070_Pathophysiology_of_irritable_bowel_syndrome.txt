@@ -1,0 +1,8 @@
+---
+source: PubMed — Pathophysiology of irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/28404070/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Traditionally, irritable bowel syndrome has been considered to be a disorder with no known underlying structural or biochemical explanation, but this concept is likely to be outdated. In this Review we challenge the widely accepted view that irritable bowel syndrome is an unexplained brain-gut disorder. There is epidemiological evidence that, in a major subset of patients, gastrointestinal symptoms arise first and only later do incident mood disorders occur. Additionally, possible mechanisms for gut-brain dysfunction have been identified, suggesting primary gut disturbances might be the underlying cause in a subgroup. Underlying mechanisms that could lead to irritable bowel syndrome include genetic factors (most notably an identified mutation of SCN5A); post-infectious changes, chronic infections and disturbances in the intestinal microbiota; low-grade mucosal inflammation, immune activation, and altered intestinal permeability; disordered bile salt metabolism (in 10-20% of cases with diarrhoea); abnormalities in serotonin metabolism; and alterations in brain function, which could be primary or secondary factors. Identical irritable bowel syndrome symptoms are probably due to different disease processes; grouping patients with this disorder into either diarrhoea-predominant or constipation-predominant subtypes promotes heterogeneity. An approach based on the underlying pathophysiology could help to develop therapies that target causes and ultimately provide a cure for patients with irritable bowel syndrome.

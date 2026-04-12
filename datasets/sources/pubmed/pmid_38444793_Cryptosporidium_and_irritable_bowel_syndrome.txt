@@ -1,0 +1,8 @@
+---
+source: PubMed — Cryptosporidium and irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/38444793/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Cryptosporidium is an apicomplexan parasite that causes gastrointestinal disease in a wide variety of hosts and is associated with waterborne outbreaks. Nonetheless, the parasite is underdiagnosed. Cryptosporidium has been proposed as an etiological cause of irritable bowel syndrome (IBS) in several studies. However, the exact mechanism of pathogenesis is unknown, and no direct link has been discovered. This review will discuss several parasite-induced modifications, such as immunological, microbiome, and metabolite modifications, as well as their interactions. To summarize, Cryptosporidium causes low inflammation, dysbiosis, and unbalanced metabolism, which leads to a lack of homeostasis in the intestine in a comparable pattern to postinfectious IBS.

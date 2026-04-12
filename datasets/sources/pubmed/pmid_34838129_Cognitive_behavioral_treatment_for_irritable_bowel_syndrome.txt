@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/34838129/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 34838129
+title: Cognitive behavioral treatment for irritable bowel syndrome: a recent literature review.
+journal: BioPsychoSocial medicine
+year: 2021
+---
+
+Irritable bowel syndrome (IBS) is a gastrointestinal psychosomatic disorder that often develops and worsens with stress. Hence, it is important to treat it from both, its physical and mental aspects. We reviewed recent research on cognitive-behavioral therapy (CBT)-one of the most widely studied psychological treatments for IBS-since it focuses on addressing the cognitions and behaviors associated with IBS symptoms, and combines diverse content, such as cognitive techniques, exposure, stress management, and mindfulness, whose effects have been widely studied. Research on CBT for IBS varies not only in terms of content of the interventions, but also in terms of implementation (individual or group, face-to-face or online). Internet-delivered CBT has recently shown the possibility of providing more accessible and cost-effective psychological intervention to IBS patients in formats, other than face-to-face. In recent years, many standardized scales that allow for IBS-specific psychological assessments have been used in clinical studies of CBT for IBS. Tools that competently deliver effective interventions and properly measure their effectiveness are expected to spread to many people suffering from IBS.

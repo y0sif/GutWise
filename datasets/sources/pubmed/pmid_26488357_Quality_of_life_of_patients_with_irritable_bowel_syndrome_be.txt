@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/26488357/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 26488357
+title: Quality of life of patients with irritable bowel syndrome before and after education.
+journal: Psychiatria polska
+year: 2015
+---
+
+OBJECTIVES: The aim of the present study was to analyse the impact of education of patients with irritable bowel syndrome (IBS) on their quality of life.
+
+METHODS: The study was carried out at the Gastroenterology Outpatient Clinic of the Independent Public Clinical Hospital No. 4 in Lublin and Gastroenterology Outpatient Clinic of the Cardinal Stefan Wyszyński Regional Specialist Hospital in Lublin in the years 2010-2011. The quality of life was analysed using the Quality of Life Questionnaire (QOL-Q R. Schalock, K. Keith). The group of 83 patients with the diagnosis of irritable bowel syndrome, who gave their consent for inclusion in the study, was provided with information about the essence of the disease, disease-related diet and lifestyle, course of the disease, medications, and check-ups.
+
+RESULTS: Our patients educated by the physician, nurse and those provided with written information had substantially higher scores in multi-dimensional aspects of the quality of life after education. Six months after education patients with IBS showed a significantly higher quality of life in all aspects, i.e. Satisfaction, Competence/productivity, Empowerment/independence and Social inclusion/community integration. The understanding of the essence of their disease contributed to a decrease in anxiety associated with the neoplastic disease and worrying symptoms, which significantly reduced the incidence of complaints.
+
+CONCLUSIONS: 1. Quality of life of patients with irritable bowel syndrome is substantially reduced in all the examined spheres. 2. Education of patients with IBS resulted in enhanced quality of life and reduced disease-related complaints. 3. Education of patients with IBS plays a significant role in the entire therapeutic process.

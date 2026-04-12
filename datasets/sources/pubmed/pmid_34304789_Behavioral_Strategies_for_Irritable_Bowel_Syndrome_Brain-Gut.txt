@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/34304789/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 34304789
+title: Behavioral Strategies for Irritable Bowel Syndrome: Brain-Gut or Gut-Brain?
+journal: Gastroenterology clinics of North America
+year: 2021
+---
+
+Irritable bowel syndrome (IBS) is a disorder of gut-brain interaction (DGBI) that is associated with significant physical, emotional, and occupational burden. Factors such as early life stress, sleep disruption, maladaptive coping strategies, symptom hypervigilance, and visceral hypersensitivity negatively affect gut-brain communication and increase the likelihood of developing IBS or worsen IBS severity. Behavioral strategies, such as cognitive behavioral therapy, gut-directed hypnosis, and mindfulness-based treatments, have shown benefit in improving gastrointestinal (GI)-specific quality of life, as well as reducing GI symptoms. Partnering with a GI-specific mental health provider can assist gastroenterologists in providing comprehensive treatment of IBS and other DGBIs.

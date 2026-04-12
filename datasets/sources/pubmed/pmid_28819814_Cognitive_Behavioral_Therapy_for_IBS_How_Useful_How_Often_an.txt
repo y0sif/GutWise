@@ -1,0 +1,14 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/28819814/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 28819814
+title: Cognitive Behavioral Therapy for IBS: How Useful, How Often, and How Does It Work?
+journal: Current gastroenterology reports
+year: 2017
+---
+
+PURPOSE OF REVIEW: While dietary and medical treatments are beneficial for specific GI symptoms for some IBS patients, they have an unsatisfactory track record for the full range of GI symptoms for more severe patients. A number of psychological interventions have been developed over the past two decades to help patients' self-manage symptoms. This review discusses the last 5 years of research on psychological treatments, with a focus on cognitive behavioral therapy (CBT) and hypnosis.
+
+RECENT FINDINGS: Recent systematic reviews indicate that psychological interventions are efficacious and their gains are maintained long-term. Treatment gains are not a function of the number of sessions. Psychological interventions are at least moderately efficacious treatments for IBS symptoms. Of different psychotherapies, CBT and hypnosis appear efficacious in minimal-contact formats (e.g., fewer sessions, phone contact). Research is still needed to identify theoretically relevant active ingredients that underlie treatment effects.

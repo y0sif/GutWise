@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/30240469/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 30240469
+title: Predictors of outcome in cognitive and behavioural interventions for irritable bowel syndrome. A meta-analysis.
+journal: Journal of gastrointestinal and liver diseases : JGLD
+year: 2018
+---
+
+BACKGROUND AND AIMS: Cognitive behavioural therapy (CBT) has small to medium effects in alleviating emotional distress and psychosomatic symptoms in irritable bowel syndrome (IBS). However, the mechanism through which CBT exerts its effects is less studied. Mediation analysis examines the extent to which intermediate variables explain the effect of the intervention on outcomes. The meta-analysis aims to identify and assess the impact of CBT mediators identified in previous research on IBS.
+
+METHODS: An extensive search of studies investigating the effects of CBT for IBS published before January 2018 was conducted. A total of 699 studies were identified through database search and 6 studies including data from 638 patients were analysed. The selected studies had to clearly define the CBT intervention, include IBS patients, report sufficient data to allow calculation of effect sizes and provide a clear mediation analysis of one or several variables on the outcome.
+
+RESULTS: The total effect of CBT was significant for both categories of outcomes (i.e. IBS symptom severity and psychosocial distress), with a low-to-moderate effect on psychosocial distress (r=0.222) and a medium-to-large effect on IBS symptom severity (r=0.413). In fact, the total effect of CBT on IBS symptom severity is significantly higher than the total effect on psychosocial distress Q(1)= 5.06, p= 0.024. Both behaviours and emotions (r=0.158) as well as cognitions (r=0.141) generated significant mediated effects on psychosocial distress, with no significant differences between them (Q(1)= 0.05, p=0.825). Behaviours and emotions mediated 71.1% of the total effect of CBT on psychosocial distress and cognitions mediated 63.5% of the total effect.
+
+CONCLUSION: Although significant for both outcomes, the statistical analysis revealed CBT interventions have a greater effect on alleviating IBS symptoms severity rather than on reducing psychological distress. Of the mediators investigated, behaviours, emotions and cognitions seem to have a small to moderating effect in reducing IBS symptom and psychological distress.

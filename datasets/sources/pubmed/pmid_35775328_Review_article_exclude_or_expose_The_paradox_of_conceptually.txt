@@ -1,0 +1,20 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/35775328/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 35775328
+title: Review article: exclude or expose? The paradox of conceptually opposite treatments for irritable bowel syndrome.
+journal: Alimentary pharmacology & therapeutics
+year: 2022
+---
+
+BACKGROUND: Irritable bowel syndrome (IBS) is a heterogeneous disorder of gut-brain interaction (DGBI) maintained by interacting biological, psychological, and social processes. Interestingly, there are two contrasting yet evidence-based treatment approaches for reducing IBS symptoms: exclusion diets such as those low in fermentable oligo-, di-, monosaccharides and polyols (FODMAPs) and exposure-based cognitive-behavioural therapy (CBT). Exclusion diets recommend patients avoid foods thought to be symptom-inducing, whereas exposure-based CBT encourages patients to expose themselves to foods.
+
+AIMS: To address the paradox of conceptually opposite exclusion diets and exposure-based CBT for IBS.
+
+METHODS: In this conceptual review, we describe the rationale, practical implementation, evidence base and strengths and weaknesses of each treatment. We conducted up-to-date literature search concerning the low FODMAP diet and CBT, and performed a secondary analysis of a previously conducted trial to illustrate a key point in our review.
+
+RESULTS: The low FODMAP diet has demonstrated efficacy, but problems with adherence, nutritional compromise, and heightened gastrointestinal-specific anxiety raise caution. Exposure-based CBT has demonstrated efficacy with substantial evidence for gastrointestinal-specific anxiety as a key mechanism of action. Mediation analysis also showed that increased FODMAP intake mediated decreased symptom severity in exposure-based CBT. However, there is minimal evidence supporting which treatment "works best for whom" and how these approaches could be best integrated.
+
+CONCLUSIONS: Even though exclusion diets and exposure-based CBT are conceptually opposite, they each have proven efficacy. Clinicians should familiarise themselves with both treatments. Further research is needed on predictors, mechanisms and moderators of treatment outcomes.

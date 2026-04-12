@@ -1,0 +1,20 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/32702295/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 32702295
+title: Global prevalence of irritable bowel syndrome according to Rome III or IV criteria: a systematic review and meta-analysis.
+journal: The lancet. Gastroenterology & hepatology
+year: 2020
+---
+
+BACKGROUND: Irritable bowel syndrome (IBS) is one of the most common functional bowel disorders, but community prevalence appears to vary widely between different countries. This variation might be due to the fact that previous cross-sectional surveys have neither applied uniform diagnostic criteria nor used identical methodology, rather than being due to true global variability. We aimed to determine the global prevalence of IBS.
+
+METHODS: We did a systematic review and meta-analysis of data from all population-based studies using relatively uniform methodology and using only the most recent iterations of the Rome criteria (Rome III and IV). We searched MEDLINE, Embase, and Embase Classic (from Jan 1, 2006, to April 30, 2020) to identify cross-sectional surveys reporting the prevalence of IBS in adults (≥90% of participants aged ≥18 years) according to the Rome III or Rome IV criteria. We also hand-searched a selection of conference proceedings for relevant abstracts published between 2006 and 2019. We extracted prevalence data for all studies, according to the criteria used to define the presence of IBS. We did a meta-analysis to estimate pooled prevalence rates, according to study location and certain other characteristics (eg, sex and IBS subtype).
+
+FINDINGS: We identified 4143 citations, of which 184 studies appeared relevant. 57 of these studies were eligible, and represented 92 separate adult populations, comprising 423 362 participants. The pooled prevalence of IBS in 53 studies that used the Rome III criteria, from 38 countries and comprising 395 385 participants, was 9·2% (95% CI 7·6-10·8; I2=99·7%). By contrast, pooled IBS prevalence among six studies that used the Rome IV criteria, from 34 countries and comprising 82 476 individuals, was 3·8% (95% CI 3·1-4·5; I2=96·6%). IBS with mixed bowel habit (IBS-M) was the most common subtype with the Rome III criteria, reported by 33·8% (95% CI 27·8-40·0; I2=98·1%) of people fulfilling criteria for IBS (ie, 3·7% [2·6-4·9] of all included participants had IBS-M), but IBS with diarrhoea (IBS-D) was the most common subtype with the Rome IV criteria (reported by 31·5% [95% CI 23·2-40·5; I2=98·1% 61·6%] of people with IBS, corresponding to 1·4% [0·9-1·9] of all included participants having IBS-D). The prevalence of IBS was higher in women than in men (12·0% [95% CI 9·3-15·0] vs 8·6% [6·3-11·2]; odds ratio 1·46 [95% CI 1·33-1·59]). Prevalence varied substantially between individual countries, and this variability persisted even when the same diagnostic criteria were applied and identical methodology was used in studies.
+
+INTERPRETATION: Even when uniform symptom-based criteria are applied, based on identical methodology, to define the presence of IBS, prevalence varies substantially between countries. Prevalence was substantially lower with the Rome IV criteria, suggesting that these more restrictive criteria might be less suitable than Rome III for population-based epidemiological surveys.
+
+FUNDING: None.

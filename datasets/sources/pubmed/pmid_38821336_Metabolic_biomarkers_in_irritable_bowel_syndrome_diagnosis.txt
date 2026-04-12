@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/38821336/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 38821336
+title: Metabolic biomarkers in irritable bowel syndrome diagnosis.
+journal: Clinica chimica acta; international journal of clinical chemistry
+year: 2024
+---
+
+Irritable bowel syndrome (IBS) is a chronic gastrointestinal (GI) disorder characterized by altered bowel habits and abdominal discomfort during defecation. It significantly impacts life quality and work productivity for those affected. Global data suggests a slightly higher prevalence in females than in males. Today, unambiguous diagnosis of IBS remains challenging due to the absence of a specific biochemical, histopathological, or radiological test. Current diagnosis relies heavily on thorough symptom evaluation. Efforts by the Rome committees have established standardized diagnostic criteria (Rome I-IV), improving consistency and clinical applicability. Recent studies in this framework, seem to have successfully employed metabolomics techniques to identify distinct metabolite profiles in breath and stool samples of IBS patients, differentiating them from healthy controls and those with other functional GI disorders, such as inflammatory bowel disease (IBD). Building on this success, researchers are investigating the presence of similar metabolites in easily accessible biofluids such as urine, potentially offering a less invasive diagnostic approach. Accordingly, this review focuses on key metabolites specifically detected in IBS patients' biological specimens, with a focus on urinary metabolites, using various methods, particularly mass spectrometry (MS)-based techniques, including gas chromatography-MS (GC-MS), liquid chromatography-tandem MS (LC-MS/MS), and capillary electrophoresis-MS (CE-MS) metabolomics assays. These findings may make provision for a new set of non-invasive biomarkers for IBS diagnosis and management.

@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/25069544/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 25069544
+title: Diagnosis of IBS: symptoms, symptom-based criteria, biomarkers or 'psychomarkers'?
+journal: Nature reviews. Gastroenterology & hepatology
+year: 2014
+---
+
+IBS is estimated to have a prevalence of up to 20% in Western populations and results in substantial costs to health-care services worldwide, estimated to be US$1 billion per year in the USA. IBS remains difficult to diagnose due to its multifactorial aetiology, heterogeneous nature and overlap of symptoms with organic pathologies, such as coeliac disease and IBD. As a result, IBS often continues to be a diagnosis of exclusion, resulting in unnecessary investigations. Available methods for the diagnosis of IBS-including the current gold standard, the Rome III criteria-perform only moderately well. Visceral hypersensitivity and altered pain perception do not discriminate between IBS and other functional gastrointestinal diseases or health with any great accuracy. Attention has now turned to developing novel biomarkers and using psychological markers (so-called psychomarkers) to aid the diagnosis of IBS. This Review describes how useful symptoms, symptom-based criteria, biomarkers and psychomarkers, and indeed combinations of all these approaches, are in the diagnosis of IBS. Future directions in diagnosing IBS could include combining demographic data, gastrointestinal symptoms, biomarkers and psychomarkers using statistical methods. Latent class analysis to distinguish between IBS and non-IBS symptom profiles might also represent a promising avenue for future research.

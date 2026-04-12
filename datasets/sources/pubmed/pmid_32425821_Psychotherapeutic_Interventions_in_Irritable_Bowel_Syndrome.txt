@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/32425821/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 32425821
+title: Psychotherapeutic Interventions in Irritable Bowel Syndrome.
+journal: Frontiers in psychiatry
+year: 2020
+---
+
+Irritable bowel syndrome (IBS) is a frequent functional gastrointestinal disorder. The patients complain about various symptoms like change in bowel habits, constipation or diarrhea, abdominal pain, and meteorism leading to a great reduction in quality of life. The pathophysiology is complex and best explained using the biopsychosocial model encompassing biological, psychological as well as (psycho)social factors. In line with the multitude of underlying factors, the treatment is comprised of a multitude of components. Often, patients start with lifestyle changes and dietary advice followed by medical treatment. However, also psychotherapy is an important treatment option for patients with IBS and should not be restricted to those with psychiatric comorbidities. Several evidence-based psychotherapeutic treatment options exist such as psychoeducation, self-help, cognitive behavioral therapy, psychodynamic psychotherapy, hypnotherapy, mindfulness-based therapy, and relaxation therapy which will be discussed in the present review.

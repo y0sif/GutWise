@@ -1,0 +1,12 @@
+---
+source: PubMed — Irritable bowel syndrome and diet.
+url: https://pubmed.ncbi.nlm.nih.gov/35131984/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+PURPOSE OF REVIEW: Irritable bowel syndrome (IBS) is a highly prevalent functional gastrointestinal disorder (FGID) characterized by chronic abdominal pain and altered bowel habits. The diagnosis of IBS is based on the presence of defined clinical Rome IV criteria in the absence of alarm features. The majority of patients with IBS report of food triggers eliciting typical IBS symptoms and trying to modify their dietary intake.
+
+RECENT FINDINGS: FGID including IBS are defined as disorders of the gut-brain interaction. A large proportion of individuals with IBS link their symptoms to dietary factors, and recent clinical studies have shown benefits of a diet low in FODMAPs (Fermentable Oligo-, Di-, and Monosaccharides and Polyols) on IBS symptoms and quality of life. Dietary interventions mediate directly changes of luminal gut contents affecting chemosensing-enteroendocrine cells in the modulation of the gut brain microbiome axis in IBS patients. Long-term assessment of clinical outcomes in patients on a low FODMAP diet is needed. Professional guidelines have incorporated the suggestion to offer IBS patients a diet low in FODMAPs.
+
+SUMMARY: The FGIDs, including IBS, are defined as gut-brain disorders. Low FODMAP diet has been shown in clinical trials to reduce IBS symptoms but long-term efficacy and nutritional side-effects remain uncertain.

@@ -1,0 +1,16 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/36942921/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 36942921
+title: Nonceliac gluten sensitivity.
+journal: Current opinion in clinical nutrition and metabolic care
+year: 2023
+---
+
+PURPOSE OF REVIEW: To describe recent advances on nonceliac gluten sensitivity (NCGS), a recently described disorder characterized by variable symptoms and frequent irritable bowel syndrome (IBS)-like manifestations.
+
+RECENT FINDINGS: The recent description of disease-triggering wheat components other than gluten, such as fructans and amylase-trypsin inhibitors (ATIs), definitely suggests that nonceliac wheat sensitivity (NCWS) is a better 'umbrella' terminology than NCGS. Self-reported NCWS is very common worldwide, particularly in patients seen at the gastroenterology clinic, but many of these diagnoses are not confirmed by standard clinical criteria. A biomarker of NCWS is still lacking, however, subtle histological features at the small intestinal biopsy may facilitate diagnosis. Treatment of NCWS is based on the gluten-free diet (GFD). The GFD has proven to be an effective treatment of a significant proportion of NCWS-related IBS patients. Dietary therapies for IBS, including the GFD, should be offered by dietitians who first assess dietary triggers and then tailor the intervention according to patient choice. Pioneer studies are under way to test the therapeutic efficacy of supplemental gluten-digesting enzyme preparations in patients with NCWS.
+
+SUMMARY: Recent studies highlight interesting pathophysiological and clinical features of NCWS. Many questions remain, however, unanswered, such as the epidemiology, a biomarker(s), and the natural history of this clinical entity.

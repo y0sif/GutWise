@@ -1,0 +1,8 @@
+---
+source: PubMed — Irritable Bowel Syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/40789179/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) is a common gastrointestinal disorder, with a prevalence of 4% to 10%. It is a chronic condition characterized by abdominal pain in conjunction with altered bowel habits, abdominal distention, or bloating. IBS can present with 3 different defecation patterns: IBS with constipation, IBS with diarrhea, or mixed IBS. Recent advances in IBS include a positive diagnosis based on symptom-based criteria and a treatment plan based on IBS subtype and bothersome symptoms. In addition to diet and lifestyle modifications, this article discusses the role of new pharmacologic and nonpharmacologic treatment options for the management of IBS.

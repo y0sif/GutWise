@@ -1,0 +1,8 @@
+---
+source: PubMed — Irritable Bowel Syndrome in Pregnancy.
+url: https://pubmed.ncbi.nlm.nih.gov/33481381/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) affects a significant percentage of the general population and is more common in women. A large proportion of women affected with IBS are of childbearing age; however, there is a paucity of studies and guidelines to specifically address the epidemiology, course, maternal/fetal prognosis, or management of IBS in pregnancy. This scarcity of literature on IBS and pregnancy poses significant challenges to healthcare providers in counseling and managing patients. In this comprehensive review, we summarize the current literature and knowledge gaps regarding the effects of pregnancy on IBS and vice versa, along with the efficacy and safety profiles of commonly used IBS diets and medications in pregnancy. The management of pregnant women with IBS should be multidisciplinary, with emphasis on education and judicious use of dietary modifications and pharmacologic options that are deemed relatively safe during pregnancy.

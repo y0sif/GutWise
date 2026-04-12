@@ -1,0 +1,36 @@
+{
+  "original_count": 800,
+  "quality_removed": 0,
+  "quality_reasons": {},
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "final_count": 800,
+  "retention_rate": 1.0,
+  "jaccard_threshold": 0.8,
+  "topic_distribution": {
+    "diet": 337,
+    "symptoms": 182,
+    "pathophysiology": 86,
+    "pharmacology": 60,
+    "diagnosis": 34,
+    "ibs_general": 30,
+    "lifestyle": 17,
+    "epidemiology": 15,
+    "treatment": 12,
+    "general": 12,
+    "psychological": 10,
+    "medications": 3,
+    "general_gi": 1,
+    "probiotics": 1
+  },
+  "conv_type_distribution": {
+    "factual_qa": 536,
+    "safety_refusal": 57,
+    "anxious_patient": 51,
+    "multi_turn": 47,
+    "doctor_followup": 36,
+    "myth_busting": 32,
+    "educational": 30,
+    "educational_qa": 11
+  }
+}

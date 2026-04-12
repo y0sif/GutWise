@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/39203794/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 39203794
+title: Effects of Physical Exercise on the Microbiota in Irritable Bowel Syndrome.
+journal: Nutrients
+year: 2024
+---
+
+Irritable bowel syndrome (IBS) is a prevalent functional gastrointestinal disorder characterized by abdominal pain, bloating, diarrhea, and constipation. Recent studies have underscored the significant role of the gut microbiota in the pathogenesis of IBS. Physical exercise, as a non-pharmacological intervention, has been proposed to alleviate IBS symptoms by modulating the gut microbiota. Aerobic exercise, such as running, swimming, and cycling, has been shown to enhance the diversity and abundance of beneficial gut bacteria, including Lactobacillus and Bifidobacterium. These bacteria produce short-chain fatty acids that possess anti-inflammatory properties and support gut barrier integrity. Studies involving IBS patients participating in structured aerobic exercise programs have reported significant improvements in their gut microbiota's composition and diversity, alongside an alleviation of symptoms like abdominal pain and bloating. Additionally, exercise positively influences mental health by reducing stress and improving mood, which can further relieve IBS symptoms via the gut-brain axis. Long-term exercise interventions provide sustained benefits, maintaining the gut microbiota's diversity and stability, supporting immune functions, and reducing systemic inflammation. However, exercise programs must be tailored to individual needs to avoid exacerbating IBS symptoms. Personalized exercise plans starting with low-to-moderate intensity and gradually increasing in intensity can maximize the benefits and minimize risks. This review examines the impact of various types and intensities of physical exercise on the gut microbiota in IBS patients, highlighting the need for further studies to explore optimal exercise protocols. Future research should include larger sample sizes, longer follow-up periods, and examine the synergistic effects of exercise and other lifestyle modifications. Integrating physical exercise into comprehensive IBS management plans can enhance symptom control and improve patients' quality of life.

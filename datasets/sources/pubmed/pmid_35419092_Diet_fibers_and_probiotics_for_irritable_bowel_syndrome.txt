@@ -1,0 +1,8 @@
+---
+source: PubMed — Diet, fibers, and probiotics for irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/35419092/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Many aspects make irritable bowel syndrome (IBS) challenging for both patients and physicians. The unclear pathogenesis with many pathways to be explored, bothering symptoms that affect the quality of life, and many subtypes of the condition are only a few reasons that make IBS difficult to control and obtain satisfactory results. Treatment options start with general advice for lifestyle, continue with non-pharmaceutical treatments, and finally touch classic treatments. In this review, pharmaceutical treatment options are not accounted for. Consensus groups and meta-analyses have concluded guidelines that overall are the same, with variations in the strength of recommendations and some cultural and geographical particularities. Dietary interventions, probiotics, and fibers can be seen as non-pharmaceutical treatments that coexist in various protocols because of the relevant evidence regarding their efficacy in treating IBS symptoms.

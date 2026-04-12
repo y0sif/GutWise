@@ -1,0 +1,14 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/29301273/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 29301273
+title: Irritable Bowel Syndrome: Patient-Provider Interaction and Patient Education.
+journal: Journal of clinical medicine
+year: 2018
+---
+
+UNLABELLED: The Patient-Provider (P-P) relationship is the foundation of medical practice. The quality of this relationship is essential, particularly for the management of chronic illness such as Irritable Bowel Syndrome (IBS), since it correlates with disease improvement. A significant aspect of fostering the P-P relationship is providing effective patient-centered education about IBS. An effective education empowers the patients to achieve the main therapeutic goals: to reduce symptoms and improve quality of life.
+
+METHOD: A literature search of PubMed was conducted using the terms "Irritable Bowel syndrome", "Patient Physician Relationship", "Patient Provider Relationship", and "Patient Physician interaction". Preference was given to articles with a clearly defined methodology and those with control groups if applicable/appropriate. This article provides a review of the literature on Patient-Provider interaction and patient education as it relates to IBS and provides practical recommendations on how to optimize this important relationship.

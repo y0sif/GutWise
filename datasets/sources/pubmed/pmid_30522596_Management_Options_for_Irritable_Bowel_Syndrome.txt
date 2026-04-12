@@ -1,0 +1,8 @@
+---
+source: PubMed — Management Options for Irritable Bowel Syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/30522596/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) is associated with diverse pathophysiologic mechanisms. These mechanisms include increased abnormal colonic motility or transit, intestinal or colorectal sensation, increased colonic bile acid concentration, and superficial colonic mucosal inflammation, as well as epithelial barrier dysfunction, neurohormonal up-regulation, and activation of secretory processes in the epithelial layer. Novel approaches to treatment include lifestyle modification, changes in diet, probiotics, and pharmacotherapy directed to the motility, sensation, and intraluminal milieu of patients with IBS. Despite recent advances, there is a need for development of new treatments to relieve pain in IBS without deleterious central or other adverse effects.

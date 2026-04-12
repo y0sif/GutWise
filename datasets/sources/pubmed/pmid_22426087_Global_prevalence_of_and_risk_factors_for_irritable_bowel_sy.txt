@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/22426087/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 22426087
+title: Global prevalence of and risk factors for irritable bowel syndrome: a meta-analysis.
+journal: Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association
+year: 2012
+---
+
+BACKGROUND & AIMS: Many cross-sectional surveys have reported the prevalence of irritable bowel syndrome (IBS), but there have been no recent systematic review of data from all studies to determine its global prevalence and risk factors.
+
+METHODS: MEDLINE, EMBASE, and EMBASE Classic were searched (until October 2011) to identify population-based studies that reported the prevalence of IBS in adults (≥15 years old); IBS was defined by using specific symptom-based criteria or questionnaires. The prevalence of IBS was extracted for all studies and based on the criteria used to define it. Pooled prevalence, according to study location and certain other characteristics, odds ratios (ORs), and 95% confidence intervals (CIs) were calculated.
+
+RESULTS: Of the 390 citations evaluated, 81 reported the prevalence of IBS in 80 separate study populations containing 260,960 subjects. Pooled prevalence in all studies was 11.2% (95% CI, 9.8%-12.8%). The prevalence varied according to country (from 1.1% to 45.0%) and criteria used to define IBS. The greatest prevalence values were calculated when ≥3 Manning criteria were used (14%; 95% CI, 10.0%-17.0%); by using the Rome I and Rome II criteria, prevalence values were 8.8% (95% CI, 6.8%-11.2%) and 9.4% (95% CI, 7.8%-11.1%), respectively. The prevalence was higher for women than men (OR, 1.67; 95% CI, 1.53-1.82) and lower for individuals older than 50 years, compared with those younger than 50 (OR, 0.75; 95% CI, 0.62-0.92). There was no effect of socioeconomic status, but only 4 studies reported these data.
+
+CONCLUSIONS: The prevalence of IBS varies among countries, as well as criteria used to define its presence. Women are at slightly higher risk for IBS than men. The effects of socioeconomic status have not been well described.

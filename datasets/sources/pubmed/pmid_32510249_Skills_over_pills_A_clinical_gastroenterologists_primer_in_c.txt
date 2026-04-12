@@ -1,0 +1,16 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/32510249/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 32510249
+title: Skills over pills? A clinical gastroenterologist's primer in cognitive behavioral therapy for irritable bowel syndrome.
+journal: Expert review of gastroenterology & hepatology
+year: 2020
+---
+
+INTRODUCTION: Irritable bowel syndrome is a common, painful, and often disabling GI disorder for which there is no satisfactory medical or dietary treatment. The past 10 years have seen the development and validation of a number of psychological treatments of which CBT is arguably the most effective based on two recently conducted multiple site trials from two investigative teams in the UK and USA.
+
+AREAS COVERED: The purpose of this review is to describe the principles, processes, procedures, and empirical basis supporting CBT and distinguish it from other psychological treatments available to clinical GE whose patients suffer from refractory IBS.
+
+EXPERT OPINION: The efficacy of CBT in treating refractory IBS patients is well established but there is limited understanding of why it works and for whom it is most beneficial. Further, its availability is generally limited to tertiary care settings which may undermine its value proposition if improved self-management is not accompanied by other health-care efficiencies. Systematic efforts to increase both the efficiency of CBT and the way it is delivered (e.g. digital therapeutics, integration into primary care) is critical to optimizing CBT's potential and reducing the public health burden IBS imposes.

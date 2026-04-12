@@ -1,0 +1,8 @@
+---
+source: PubMed — Irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/21872090/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) is a common gastrointestinal disorder that leads to crampy pain, gassiness, bloating, and changes in bowel habits in the absence of any currently identifiable organic disorder. Patients with IBS may be classified by their predominant bowel habit: diarrhea-predominant, constipation-predominant, or IBS with alternating bowel movements. IBS is often associated with stress or anxiety. Although IBS can be frustrating and concerning to patients with this disorder, it does not cause permanent harm to the intestines and does not lead to a serious disease such as cancer. Although treatments exist for its symptoms, there is no known cure.

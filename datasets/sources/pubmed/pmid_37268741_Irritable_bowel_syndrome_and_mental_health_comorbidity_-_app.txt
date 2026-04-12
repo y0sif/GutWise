@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/37268741/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 37268741
+title: Irritable bowel syndrome and mental health comorbidity - approach to multidisciplinary management.
+journal: Nature reviews. Gastroenterology & hepatology
+year: 2023
+---
+
+Irritable bowel syndrome (IBS) affects 5-10% of the global population. Up to one-third of people with IBS also experience anxiety or depression. Gastrointestinal and psychological symptoms both drive health-care use in people with IBS, but psychological comorbidity seems to be more important for long-term quality of life. An integrated care approach that addresses gastrointestinal symptoms with nutrition and brain-gut behaviour therapies is considered the gold standard. However, best practice for the treatment of individuals with IBS who have a comorbid psychological condition is unclear. Given the rising prevalence of mental health disorders, discussion of the challenges of implementing therapy for people with IBS and anxiety and depression is critical. In this Review, we draw upon our expertise in gastroenterology, nutrition science and psychology to highlight common challenges that arise when managing patients with IBS and co-occurring anxiety and depression, and provide recommendations for tailoring clinical assessment and treatment. We provide best practice recommendations, including dietary and behavioural interventions that could be applied by non-specialists and clinicians working outside an integrated care model.

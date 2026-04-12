@@ -1,0 +1,8 @@
+---
+source: PubMed — Irritable Bowel Syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/28586906/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+This issue provides a clinical overview of irritable bowel syndrome, focusing on diagnosis, treatment, and practice improvement. The content of In the Clinic is drawn from the clinical information and education resources of the American College of Physicians (ACP), including MKSAP (Medical Knowledge and Self-Assessment Program). Annals of Internal Medicine editors develop In the Clinic in collaboration with the ACP's Medical Education and Publishing divisions and with the assistance of additional science writers and physician writers.

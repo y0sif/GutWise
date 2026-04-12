@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/41000570/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 41000570
+title: Evaluating the content and quality of irritable bowel syndrome videos on social media platforms in China: Focus on TikTok and Bilibili.
+journal: Digital health
+year: 2025
+---
+
+OBJECTIVE: Irritable Bowel Syndrome (IBS) is a prevalent functional gastrointestinal disorder that significantly impairs quality of life. Social media has become a primary source of health information, with TikTok and Bilibili emerging as popular video-sharing platforms in China. The present study aims to assess the content, quality, and user engagement of IBS-related videos on Bilibili and TikTok in China, identifying strengths and weaknesses in online health information and offering insights for improving patient education.
+
+METHODS: Hundred qualified videos from each platform were analyzed. Videos were categorized by platforms, sources, contents, and quality (using Global Quality Score and modified DISCERN scoring systems). Statistical analyses included correlation analysis and linear regression to assess relationships between video quality and engagement metrics.
+
+RESULTS: Videos showed an increasing trend from 2020 to 2024. TikTok videos were shorter (median 61.0 s vs. 220.0 s) with higher engagement. Healthcare professionals (77.0%) and science communicators (15.5%) were primary content creators. Linear regression revealed significant platform differences: on TikTok, higher quality videos had negative associations with likes and comments; on Bilibili, higher quality showed positive associations with all engagement metrics (likes, favorites, shares, and comments).
+
+CONCLUSIONS: Platform-specific differences exist in how users engage with IBS-related content on Chinese social media platforms. The divergent relationship between video quality and engagement metrics on TikTok versus Bilibili suggests that content creators may need platform-specific strategies to effectively deliver high-quality health information.

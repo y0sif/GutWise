@@ -1,0 +1,8 @@
+---
+source: PubMed — Irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/27159638/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) is a functional gastrointestinal disease with a high population prevalence. The disorder can be debilitating in some patients, whereas others may have mild or moderate symptoms. The most important single risk factors are female sex, younger age and preceding gastrointestinal infections. Clinical symptoms of IBS include abdominal pain or discomfort, stool irregularities and bloating, as well as other somatic, visceral and psychiatric comorbidities. Currently, the diagnosis of IBS is based on symptoms and the exclusion of other organic diseases, and therapy includes drug treatment of the predominant symptoms, nutrition and psychotherapy. Although the underlying pathogenesis is far from understood, aetiological factors include increased epithelial hyperpermeability, dysbiosis, inflammation, visceral hypersensitivity, epigenetics and genetics, and altered brain-gut interactions. IBS considerably affects quality of life and imposes a profound burden on patients, physicians and the health-care system. The past decade has seen remarkable progress in our understanding of functional bowel disorders such as IBS that will be summarized in this Primer.

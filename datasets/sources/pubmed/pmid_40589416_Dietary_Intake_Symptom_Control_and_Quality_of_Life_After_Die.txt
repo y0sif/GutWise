@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/40589416/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 40589416
+title: Dietary Intake, Symptom Control and Quality of Life After Dietitian-Delivered Education on a FODMAP Diet for Irritable Bowel Syndrome: A 7-Year Follow Up.
+journal: Neurogastroenterology and motility
+year: 2025
+---
+
+BACKGROUND: Limited data exist on long-term outcomes in patients with irritable bowel syndrome (IBS) following dietetic education on a FODMAP (fermentable, oligo-, di-, monosaccharides and polyols) diet. We aimed to investigate long-term outcomes with regards to the educative process, symptom control, quality of life, and dietary intake and patterns.
+
+METHODS: Medical histories of individuals with IBS educated on a FODMAP diet by a gastrointestinal specialist dietitian 2008-2018 were interrogated. At face-to-face interview, demographic data, symptoms, dietary intake, and overall and food-related quality of life (QOL) were assessed.
+
+KEY RESULTS: Seventy-four participants, 62% female, median age 59 (IQR 47-67) years, were educated to restrict intake of all FODMAPs; 23% had dietitian-directed progression through reintroduction and personalization phases. After mean 7.1 (range 2.5-13.4) years, 26% reported returning to habitual diet, 62% following a personalized diet and 12% continuing strict FODMAP restriction. Overall FODMAP intake was similar to that of historical healthy controls, but reduced in those continuing strict restriction. At least one type of FODMAP was restricted in 84%. Symptom severity and IBS-related QOL were similar across reported dietary patterns and FODMAP intakes, but food-related QOL was low in those with continuing strict restriction. Satisfactory relief of symptoms was reported by 64%. Symptom exacerbation was ameliorated by altering FODMAP (66%) or fiber intake (26%) with a minority (27%) utilizing medication.
+
+CONCLUSIONS AND INFERENCES: Despite suboptimal implementation, dietitian-delivered education on a FODMAP diet in patients with IBS generally achieved satisfactory relief of symptoms, self-empowerment and minimal restriction of FODMAPs in the long term.

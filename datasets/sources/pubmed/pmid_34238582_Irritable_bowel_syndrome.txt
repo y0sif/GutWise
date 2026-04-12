@@ -1,0 +1,8 @@
+---
+source: PubMed — Irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/34238582/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome is one of the most common functional bowel disorders, and has a substantial impact on patients' daily lives, as well as a big economic impact on society. It is characterised by abdominal pain, bloating and abdominal distention and altered bowel movements, with a predominance of diarrhoea, constipation, or alternation of these signs, which cannot be explained by a structural or biochemical abnormality. Its aetiopathogenesis and pathophysiological mechanism are unknown. The disease affects 5%-10% of healthy individuals at any given time and, in most people, has a relapsing-remitting course. This article reviews some of the main and most current evidence on its epidemiology, risk factors, pathophysiology, clinical manifestations, diagnostic approach, and therapeutic options, both dietary, pharmacological and psychotherapeutic.

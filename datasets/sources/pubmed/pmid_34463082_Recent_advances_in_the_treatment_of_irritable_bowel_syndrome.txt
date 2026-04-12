@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/34463082/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 34463082
+title: Recent advances in the treatment of irritable bowel syndrome.
+journal: Polish archives of internal medicine
+year: 2021
+---
+
+Irritable bowel syndrome (IBS) is a chronic functional gastrointestinal disorder which presents with abdominal pain and altered bowel habits. It affects about 20% of the general population, mainly women, and has a considerable impact on the quality of life and health care costs. Four different entities of IBS have been identified: IBS with constipation (IBS‑ C), IBS with diarrhea (IBS D), IBS with a mixed pattern of constipation and diarrhea, and unclassified IBS. Although the precise pathogenesis of IBS remains unclear, its multifactorial nature is evident and includes environmental and host factors. Management of patients with this disease is challenging and a personalized approach is required. A strong, reassuring physician‑ patient relationship is crucial, followed by patient education, dietary advice, and stress reduction. For nonresponding patients, the therapeutic approach may include nonpharmacological therapies and / or pharmacotherapy. The choice of pharmacological treatment is based on the predominant symptom and a prespecified time point should be planned for effectiveness evaluation and dose adjustment. In patients with IBS‑ D, the therapeutic options include mainly antibiotics, such as rifaximin, peripheral opioid agonists, mixed opioid agonists / antagonists, bile acid sequestrants, and antagonists of serotonin 5‑ hydroxytryptamine type 3 receptors. Bulking agents and osmotic laxatives represent the first line therapy for IBS‑ C, while lubiprostone and linaclotide should be reserved for difficult to treat patients. The involvement of gastrointestinal microbiota constitutes a fascinating field of exploration as it offers the potential to be modulated by the use of probiotics, prebiotics, synbiotics as well as fecal microbiota transplantation. This review offers an updated overview on the recent advances in the treatment of IBS.

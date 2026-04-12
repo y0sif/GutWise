@@ -1,0 +1,8 @@
+---
+source: PubMed — Fructose and irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/32122419/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) is a chronic disorder characterised by recurrent abdominal pain or discomfort and transit disturbances with heterogeneous pathophysiological mechanisms. The link between food and gastrointestinal (GI) symptoms is often reported by patients with IBS and the role of fructose has recently been highlighted. Fructose malabsorption can easily be assessed by hydrogen and/or methane breath test in response to 25 g fructose; and its prevalence is about 22 % in patients with IBS. The mechanism of fructose-related symptoms is incompletely understood. Osmotic load, fermentation and visceral hypersensitivity are likely to participate in GI symptoms in the IBS population and may be triggered or worsened by fructose. A low-fructose diet could be integrated in the overall treatment strategy, but its role and implication in the improvement of IBS symptoms should be evaluated. In the present review, we discuss fructose malabsorption in adult patients with IBS and the interest of a low-fructose diet in order to underline the important role of fructose in IBS.

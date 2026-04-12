@@ -1,0 +1,18 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/19638214/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 19638214
+title: Mindfulness for irritable bowel syndrome: protocol development for a controlled clinical trial.
+journal: BMC complementary and alternative medicine
+year: 2009
+---
+
+BACKGROUND: Irritable bowel syndrome (IBS), a functional bowel disorder with symptoms of abdominal pain and disturbed defecation experienced by 10% of U.S. adults, results in significant disability, impaired quality of life, and health-care burden. Conventional medical care focusing on pharmacological approaches, diet, and lifestyle management has been partially effective in controlling symptoms. Behavioral treatments, such as cognitive-behavioral therapy and hypnosis, are promising. This paper describes an on-going feasibility study to assess the efficacy of mindfulness training, a behavioral treatment involving directing and sustaining attention to present-moment experience, for the treatment of IBS.
+
+METHODS/DESIGN: The study design involves randomization of adult women with IBS according to Rome II criteria, to either an eight-week mindfulness training group (based on a Mindfulness-based Stress Reduction [MBSR] format) or a previously validated IBS social-support group as an attention-control condition. The primary hypothesis is that, compared to Support Group participants, those in the Mindfulness Program will demonstrate significant improvement in IBS symptoms as measured by the IBS Symptom Severity Scale [1].
+
+DISCUSSION: 214 individuals have been screened for eligibility, of whom 148 were eligible for the study. Of those, 87 were enrolled, with 21 withdrawing after having given consent. 66 have completed or are in the process of completing the interventions. It is feasible to undertake a rigorous randomized clinical trial of mindfulness training for people with IBS, using a standardized MBSR protocol adapted for those experiencing IBS, compared to a control social-support group previously utilized in IBS studies.
+
+TRIAL REGISTRATION: Clinical Trials.gov Identifier: NCT00680693.

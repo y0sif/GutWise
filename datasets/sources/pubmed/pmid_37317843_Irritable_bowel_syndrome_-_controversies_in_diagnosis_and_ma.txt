@@ -1,0 +1,16 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/37317843/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 37317843
+title: Irritable bowel syndrome - controversies in diagnosis and management.
+journal: Expert review of gastroenterology & hepatology
+year: 2023
+---
+
+INTRODUCTION: The irritable bowel syndrome (IBS) is the best-recognized disorder of gut brain interactions (DGBI). However, it is controversial if the Rome IV criteria iteration for IBS diagnosis is fit for purpose.
+
+AREAS COVERED: This review critically evaluates Rome IV criteria for diagnosis of IBS and addresses clinical considerations in IBS treatment and management, including dietary factors, biomarkers, disease mimics, symptom severity, and subtypes. The role of diet in IBS is critically reviewed along with the influence of the microbiota, including small intestinal bacterial overgrowth.
+
+EXPERT OPINION: Emerging data suggest the Rome IV criteria are more suitable for identifying severe IBS and least useful for sub-diagnostic patients who are still likely to benefit from IBS treatment. Despite convincing evidence that IBS symptoms are diet-driven and often postprandial, a relationship to eating is not a Rome IV diagnostic criterion. Few IBS biomarkers have been identified, suggesting the syndrome is too heterogeneous to be measured by a single marker, and combined biomarker, clinical, dietary, and microbial profiling may be needed for objective characterization. With many organic diseases mimicking and overlapping with IBS, it's important clinicians are knowledgable about this to mitigate the risk of missing comorbid organic intestinal disease and to optimally treat IBS symptoms.

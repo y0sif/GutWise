@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/28061975/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 28061975
+title: The Place of Stress and Emotions in the Irritable Bowel Syndrome.
+journal: Vitamins and hormones
+year: 2017
+---
+
+Our emotional state can have many consequences on our somatic health and well-being. Negative emotions such as anxiety play a major role in gut functioning due to the bidirectional communications between gut and brain, namely, the brain-gut axis. The irritable bowel syndrome (IBS), characterized by an unusual visceral hypersensitivity, is the most common disorder encountered by gastroenterologists. Among the main symptoms, the presence of current or recurrent abdominal pain or discomfort associated with bloating and altered bowel habits characterizes this syndrome that could strongly alter the quality of life. This chapter will present the physiopathology of IBS and explain how stress influences gastrointestinal functions (permeability, motility, microbiota, sensitivity, secretion) and how it could be predominantly involved in IBS. This chapter will also describe the role of the autonomic nervous system and the hypothalamic-pituitary axis through vagal tone and cortisol homeostasis. An analysis is made about how emotions and feelings are involved in the disruption of homeostasis, and we will see to what extent the balance between vagal tone and cortisol may reflect dysfunctions of the brain-gut homeostasis. Finally, the interest of therapeutic treatments focused on stress reduction and vagal tone enforcement is discussed.

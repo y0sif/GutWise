@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/27817184/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 27817184
+title: Biomarkers of Irritable Bowel Syndrome.
+journal: Journal of neurogastroenterology and motility
+year: 2017
+---
+
+Traditionally, irritable bowel syndrome (IBS) has not been regarded as an organic disease, and the pathophysiology of IBS is heterogeneous. Currently, the diagnosis of IBS is based upon the Rome diagnostic criteria. The performance of these criteria is only modest in predicting IBS, and moreover their validation is lacking. Additionally, as functional symptoms are common in the general population, healthy controls or volunteers are difficult to define and there is currently no definition of "normal" in the Rome criteria. Due to the weaknesses of the current diagnostic criteria, patients and doctors expect new gold standard diagnostic tools. Various etiologic mechanisms result in potential biomarkers. The focus of this research has been to find non-invasive biomarkers from serum, breath gas, and fecal materials. Though biomarkers should be based on biological and pathogenic processes, most biomarkers for IBS have been developed to identify organic diseases and therefore eliminate IBS. To date, these types of biomarkers for IBS have been disappointing. The purposes of developing biomarkers include improvement of diagnosis, differentiation from other organic diseases, and discrimination of IBS subtypes. A true mechanistic biomarker would make it possible to rule in IBS, rather than to rule out other organic diseases. New serologic biomarkers for diarrhea-predominant IBS have been introduced based on the pathophysiologic findings from a rat model and validation in a large-scale clinical trial. Further investigations of abnormal organic findings from each subtype of IBS would enable the development of new, simple subtype-specific biomarkers.

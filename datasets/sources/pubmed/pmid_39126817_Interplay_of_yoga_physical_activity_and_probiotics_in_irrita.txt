@@ -1,0 +1,22 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/39126817/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 39126817
+title: Interplay of yoga, physical activity, and probiotics in irritable bowel syndrome management: A double-blind randomized study.
+journal: Complementary therapies in clinical practice
+year: 2024
+---
+
+OBJECTIVES: This study aimed to explore the synergistic impact of online yoga, mindfulness practices, and probiotics on irritable bowel syndrome (IBS) by evaluating changes in physical fitness, mental health, and gut microbiota composition.
+
+DESIGN, SETTING AND INTERVENTIONS: The six-week randomized, double-blinded, placebo-controlled trial included 31 IBS patients categorized into three groups: online yoga with probiotics (EP), online yoga with a placebo (EC), and probiotics only (P). Assessments involved physical fitness tests, subjective questionnaires (IBS-QOL, BSRS-5), and gut microbiome analysis.
+
+MAIN OUTCOME MEASURES: Participants self-collected stool samples and were given a set of questionnaires at baseline and after six weeks of intervention. Their symptoms were measured by changes in the gut microbiota, physical fitness and quality of life, and psychological well-being.
+
+RESULTS: The EP group demonstrated improved cardiovascular endurance (P < 0.001) and a significant reduction in Klebsiella bacterial strains (P < 0.05). Both the EP and EC groups exhibited significantly decreased IBS-QOL scores (P < 0.001 and P < 0.05, respectively), indicating enhanced quality of life. While BSRS-5 scores decreased in both groups, the reduction was statistically insignificant.
+
+CONCLUSION: Integrating online yoga, mindfulness practices, and probiotics demonstrated comprehensive benefits for IBS patients. This intervention improved physical fitness and mental well-being and positively influenced gut microbiota composition. The study highlights the potential of this multifaceted approach in managing IBS symptoms and enhancing overall health, emphasizing the relevance of the gut-muscle-brain axis in understanding and addressing IBS complexities.
+
+TRIAL REGISTRATION: Taiwanese Registry of Institutional Review Board IRBHP210009/CH11000259.

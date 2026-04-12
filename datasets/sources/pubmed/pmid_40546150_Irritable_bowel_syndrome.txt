@@ -1,0 +1,10 @@
+---
+source: PubMed — [Irritable bowel syndrome].
+url: https://pubmed.ncbi.nlm.nih.gov/40546150/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+IRRITABLE BOWEL SYNDROME. Irritable bowel syndrome (IBS) is a common functional digestive disorder affecting 4 to 10% of the population, with a female gender predominance. Although it is a benign disease, it can sometimes considerably impair quality of life particularly in severe cases. Diagnosis should be clinical based on symptoms, with limited complementary examinations for the sole purpose of differential diagnosis elimination. A better understanding of IBS mechanisms has led to the development of various therapeutic strategies. Antispasmodics and transit modifiers are the most commonly strategies used. Dietary management with diets, probiotics, physical activity, alternative treatments such as hypnosis and therapeutic education can also improve IBS symptoms and reduce severity.
+
+SYNDROME DE L’INTESTIN IRRITABLE. Le syndrome de l’intestin irritable est un trouble fonctionnel digestif fréquent touchant 4 à 10 % de la population, avec une prédominance féminine qui, bien que bénin, peut parfois considérablement altérer la qualité de vie, notamment en cas de forme sévère. Son diagnostic est essentiellement clinique et fondé sur les données de l’interrogatoire avec des examens complémentaires qui doivent rester limités et à seul but de diagnostic différentiel. Une meilleure connaissance des mécanismes de la maladie a permis le développement de différentes stratégies thérapeutiques. Les antispasmodiques et les modificateurs du transit sont les traitements les plus utilisés. La prise en charge diététique avec des régimes, la prise de probiotiques, l’activité physique, des traitements complémentaires, comme notamment l’hypnose et l’éducation thérapeutique, peuvent aussi diminuer les symptômes de la maladie et réduire sa sévérité.

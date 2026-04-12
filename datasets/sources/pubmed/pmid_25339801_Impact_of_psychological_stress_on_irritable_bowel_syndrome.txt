@@ -1,0 +1,8 @@
+---
+source: PubMed — Impact of psychological stress on irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/25339801/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Psychological stress is an important factor for the development of irritable bowel syndrome (IBS). More and more clinical and experimental evidence showed that IBS is a combination of irritable bowel and irritable brain. In the present review we discuss the potential role of psychological stress in the pathogenesis of IBS and provide comprehensive approaches in clinical treatment. Evidence from clinical and experimental studies showed that psychological stresses have marked impact on intestinal sensitivity, motility, secretion and permeability, and the underlying mechanism has a close correlation with mucosal immune activation, alterations in central nervous system, peripheral neurons and gastrointestinal microbiota. Stress-induced alterations in neuro-endocrine-immune pathways acts on the gut-brain axis and microbiota-gut-brain axis, and cause symptom flare-ups or exaggeration in IBS. IBS is a stress-sensitive disorder, therefore, the treatment of IBS should focus on managing stress and stress-induced responses. Now, non-pharmacological approaches and pharmacological strategies that target on stress-related alterations, such as antidepressants, antipsychotics, miscellaneous agents, 5-HT synthesis inhibitors, selective 5-HT reuptake inhibitors, and specific 5-HT receptor antagonists or agonists have shown a critical role in IBS management. A integrative approach for IBS management is a necessary.

@@ -1,0 +1,16 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/36379658/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 36379658
+title: NET-RMDs study: networks of fatigue and pain in rheumatic and musculoskeletal diseases - protocol for an international cross-sectional study.
+journal: BMJ open
+year: 2022
+---
+
+INTRODUCTION: Fatigue and pain are the main symptoms of rheumatic and musculoskeletal diseases (RMDs). Healthcare professionals have a primary role in helping patients to manage both these symptoms, which are part of a complex network of co-occurring factors including sleep problems, psychological distress, social support, body weight, diet, inactive lifestyle and disease activity. The patterns of relationships (networks) between these factors and these symptoms, fatigue and pain, are largely unknown. The current proposal aims to reveal them using network estimation techniques. We will also consider differences in networks for subgroups of people with (1) different RMDs and (2) different clusters (profiles) of biopsychosocial factors.
+
+METHODS AND ANALYSIS: Adults with at least one RMD will be recruited to this online cross-sectional observational project. To provide a complete overview, a large sample size from different countries will be included. A brief online survey, using 0-10 numeric rating scales will measure, for the past month, levels of fatigue and pain as well as scores on seven biopsychosocial factors. These factors were derived from literature and identified by interviews with patients, health professionals and rheumatologists. Using this input, the steering committee of the project decided the factors to be measured giving priority to those that can be modified in self-management support in community health centres worldwide. Network estimation techniques are used to detect the complex patterns of relationships between these biopsychosocial factors, fatigue and pain; and how these differ for subgroups of people with different RMDs and profiles.
+
+ETHICS AND DISSEMINATION: Ethical approval of national Institutional Review Boards was obtained. The online survey includes an information letter and informed consent form. The findings will be disseminated via conferences and publications in peer-reviewed scientific journals, while public media channels will be used to inform people with RMDs and other interested parties.

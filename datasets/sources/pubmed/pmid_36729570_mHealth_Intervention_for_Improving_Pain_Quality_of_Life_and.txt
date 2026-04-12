@@ -1,0 +1,22 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/36729570/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 36729570
+title: mHealth Intervention for Improving Pain, Quality of Life, and Functional Disability in Patients With Chronic Pain: Systematic Review.
+journal: JMIR mHealth and uHealth
+year: 2023
+---
+
+BACKGROUND: Chronic pain (CP) is 1 of the leading causes of disability worldwide and represents a significant burden on individual, social, and economic aspects. Potential tools, such as mobile health (mHealth) systems, are emerging for the self-management of patients with CP.
+
+OBJECTIVE: A systematic review was conducted to analyze the effects of mHealth interventions on CP management, based on pain intensity, quality of life (QoL), and functional disability assessment, compared to conventional treatment or nonintervention.
+
+METHODS: PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analysis) guidelines were followed to conduct a systematic review of randomized controlled trials (RCTs) published in PubMed, Web of Science, Scopus, and Physiotherapy Evidence Database (PEDro) databases from February to March 2022. No filters were used. The eligibility criteria were RCTs of adults (≥18 years old) with CP, intervened with mHealth systems based on mobile apps for monitoring pain and health-related outcomes, for pain and behavioral self-management, and for performing therapeutic approaches, compared to conventional treatments (physical, occupational, and psychological therapies; usual medical care; and education) or nonintervention, reporting pain intensity, QoL, and functional disability. The methodological quality and risk of bias (RoB) were assessed using the Checklist for Measuring Quality, the Oxford Centre for Evidence-Based Medicine Levels of Evidence, and the Cochrane RoB 2.0 tool.
+
+RESULTS: In total, 22 RCTs, involving 2641 patients with different CP conditions listed in the International Classification of Diseases 11th Revision (ICD-11), including chronic low back pain (CLBP), chronic musculoskeletal pain (CMSP), chronic neck pain (CNP), unspecified CP, chronic pelvic pain (CPP), fibromyalgia (FM), interstitial cystitis/bladder pain syndrome (IC/BPS), irritable bowel syndrome (IBS), and osteoarthritis (OA). A total of 23 mHealth systems were used to conduct a variety of CP self-management strategies, among which monitoring pain and symptoms and home-based exercise programs were the most used. Beneficial effects of the use of mHealth systems in reducing pain intensity (CNP, FM, IC/BPS, and OA), QoL (CLBP, CNP, IBS, and OA), and functional disability (CLBP, CMSP, CNP, and OA) were found. Most of the included studies (18/22, 82%) reported medium methodological quality and were considered as highly recommendable; in addition, 7/22 (32%) studies had a low RoB, 10/22 (45%) had some concerns, and 5/22 (23%) had a high RoB.
+
+CONCLUSIONS: The use of mHealth systems indicated positive effects for pain intensity in CNP, FM, IC/BPS, and OA; for QoL in CLBP, CNP, IBS, and OA; and for functional disability in CLBP, CMSP, CNP, and OA. Thus, mHealth seems to be an alternative to improving pain-related outcomes and QoL and could be part of multimodal strategies for CP self-management. High-quality studies are needed to merge the evidence and recommendations of the use of mHealth systems for CP management.
+
+TRIAL REGISTRATION: PROSPERO International Prospective Register of Systematic Reviews CRD42022315808; https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=315808.

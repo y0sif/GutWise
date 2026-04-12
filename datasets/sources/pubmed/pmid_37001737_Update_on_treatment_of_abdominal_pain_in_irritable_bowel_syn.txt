@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/37001737/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 37001737
+title: Update on treatment of abdominal pain in irritable bowel syndrome: A narrative review.
+journal: Pharmacology & therapeutics
+year: 2023
+---
+
+The objectives of this narrative review are to update readers on the current state-of-the-art regarding diverse approaches for the treatment of pain, global symptoms, or adequate relief in irritable bowel syndrome (IBS). The article appraises medications, dietary interventions including low fermentable oligosaccharides, disaccharides, and monosaccharides and polyols (FODMAP) diet, fecal microbial transplantation (FMT), electrical approaches, and behavioral therapies including cognitive behavioral therapy (CBT), gut-directed hypnotherapy (GDH), mindfulness, and open-label placebo. Current evidence demonstrates only modest benefit in global IBS symptoms and pain relief. A future approach that identifies pathophysiological mechanisms of IBS through validated biomarkers has the potential to individualize treatment of patients rather than sequential therapeutic trial and error approaches.

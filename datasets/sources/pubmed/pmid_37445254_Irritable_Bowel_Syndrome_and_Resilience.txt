@@ -1,0 +1,8 @@
+---
+source: PubMed — Irritable Bowel Syndrome and Resilience.
+url: https://pubmed.ncbi.nlm.nih.gov/37445254/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) is a disorder of the gut-brain interaction (DGBI), characterized, mainly in severe cases, by altered psychological stress reactivity, psychological disorders, and dysfunction of the brain-gut-microbiota axis. Prior studies have highlighted significant physical and emotional impairments in the health-related quality of life of patients with IBS. Resilience is a psychosocial ability that reduces negative emotions while enhancing adaptation to adversities. Resilience is essential for health promotion and stress response. The present study aimed to carry out a review of the literature in multiple databases, using the descriptors "resilience", "resiliency", and "irritable bowel syndrome". The inclusion criteria for obtaining the most relevant papers were research articles on resilience and irritable bowel syndrome written in English, published in a peer-reviewed journal, and involving human subjects. Studies specifically on resilience in IBS were sparse. These results need to be understood in light of these limitations. As resilience appears to be modifiable, it is essential to conduct direct research on resilience-enhancing interventions for people with IBS. The study of the factors involved in successful adaptation must be extended, to possibly yield new interventions that help the patients overcome the difficulties imposed by the disease.

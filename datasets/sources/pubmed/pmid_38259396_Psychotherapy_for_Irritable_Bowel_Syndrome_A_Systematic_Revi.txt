@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/38259396/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 38259396
+title: Psychotherapy for Irritable Bowel Syndrome: A Systematic Review.
+journal: Cureus
+year: 2023
+---
+
+Psychotherapy has many forms, such as cognitive behavioral therapy (CBT), mindfulness therapy (MFT), and hypnotherapy, to name a few. Cognitive behavioral therapy is the gold standard in therapy-based treatment and is used for cognitive restructuring to reduce safety-seeking and avoidant behaviors. While the main application of psychotherapy is psychological disorders, recent studies have found that it is beneficial for somatic and physiological symptoms such as chronic pain or even irritable bowel syndrome (IBS). Irritable bowel syndrome is a common but debilitating gastrointestinal condition that has a prevalence of 12% in the United States and costs the average patient $9,776 annually in 2023. Irritatable bowel syndrome is a condition of exclusion but consists of abdominal discomfort or pain and must be associated with altered bowel habits as stated in the Rome IV criteria. At least half of these patients also exhibit extracolonic symptoms, most commonly psychological disorders like anxiety and stress. The true etiology of IBS is not understood, but ideas such as the brain-gut axis, stress response system, and gut microbiota have been evaluated. Treatment of IBS is extensive and heavily relies on the patient-physician interaction, but pharmacologic therapies have been employed and are sometimes unsuccessful. Irritable bowel syndrome impacts an individual as a whole, making them hesitate whether or not they eat a particular food or even go out to do an activity because of the unpredictable bowel pattern. Finding a better solution is essential to improving the patient's quality of life (QoL), especially by addressing how they perceive the illness, how they adjust to it, and even how they determine what foods to consume. This paper aims to evaluate whether or not psychotherapy can be employed to improve all aspects of IBS, as well as if it can reduce the cost of IBS treatment.

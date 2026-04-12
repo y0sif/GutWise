@@ -1,0 +1,14 @@
+---
+source: PubMed — Irritable bowel syndrome.
+url: https://pubmed.ncbi.nlm.nih.gov/21718578/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+INTRODUCTION: The prevalence of irritable bowel syndrome (IBS) varies depending on the criteria used to diagnose it, but it ranges from about 5% to 20%. IBS is associated with abnormal gastrointestinal motor function and enhanced visceral perception, as well as psychosocial and genetic factors. People with IBS often have other bodily and psychiatric symptoms, and have an increased likelihood of having unnecessary surgery compared with people without IBS.
+
+METHODS AND OUTCOMES: We conducted a systematic review and aimed to answer the following clinical question: What are the effects of treatments in people with IBS? We searched: Medline, Embase, The Cochrane Library, and other important databases up to July 2009 (Clinical Evidence reviews are updated periodically; please check our website for the most up-to-date version of this review). We included harms alerts from relevant organisations such as the US Food and Drug Administration (FDA) and the UK Medicines and Healthcare products Regulatory Agency (MHRA).
+
+RESULTS: We found 18 systematic reviews, RCTs, or observational studies that met our inclusion criteria. We performed a GRADE evaluation of the quality of evidence for interventions.
+
+CONCLUSIONS: In this systematic review we present information relating to the effectiveness and safety of the following interventions: 5HT(3) receptor antagonists (alosetron and ramosetron); 5HT(4) receptor agonists (tegaserod); antidepressants (tricyclic antidepressants and selective serotonin reuptake inhibitors [SSRIs]); antispasmodics (including peppermint oil); cognitive behavioural therapy (CBT); hypnotherapy; soluble and insoluble fibre supplementation; and loperamide.

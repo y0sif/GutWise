@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/36012730/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 36012730
+title: Current Status of the Diagnosis and Management of Osteoporosis.
+journal: International journal of molecular sciences
+year: 2022
+---
+
+Osteoporosis has been defined as the silent disease of the 21st century, becoming a public health risk due to its severity, chronicity and progression and affecting mainly postmenopausal women and older adults. Osteoporosis is characterized by an imbalance between bone resorption and bone production. It is diagnosed through different methods such as bone densitometry and dual X-rays. The treatment of this pathology focuses on different aspects. On the one hand, pharmacological treatments are characterized by the use of anti-resorptive drugs, as well as emerging regenerative medicine treatments such as cell therapies and the use of bioactive hydrogels. On the other hand, non-pharmacological treatments are associated with lifestyle habits that should be incorporated, such as physical activity, diet and the cessation of harmful habits such as a high consumption of alcohol or smoking. This review seeks to provide an overview of the theoretical basis in relation to bone biology, the existing methods for diagnosis and the treatments of osteoporosis, including the development of new strategies.

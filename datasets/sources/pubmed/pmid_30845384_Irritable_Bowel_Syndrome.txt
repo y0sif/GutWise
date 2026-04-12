@@ -1,0 +1,8 @@
+---
+source: PubMed — [Irritable Bowel Syndrome].
+url: https://pubmed.ncbi.nlm.nih.gov/30845384/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+Irritable bowel syndrome (IBS) is a common functional gastrointestinal disorder. Its diagnosis is based on symptoms, and the Rome IV criteria are recognized as the gold diagnostic standard. The Korean Society of Neurogastroenterology and Motility (KSNM) recently updated their clinical practice guidelines for the treatment of IBS, which were last issued in 2011. In this updated edition, the KSNM defines IBS as a chronic, recurrent symptom complex that includes abdominal pain or discomfort, changes in bowel habits, and bloating for at least 6 months, which is somewhat broader than the previous definition. Four major topics have been changed in the up-dated version in-line with the results of recent studies, that is, colonoscopy; a diet low in fermentable oligosaccharides, disaccharides, monosaccharides, and polyols; probiotics; and rifaximin. Herein, we review the 2017 revised edition of the KSNM with respect to recommended clinical practice guidelines for IBS and compare these with other guidelines.

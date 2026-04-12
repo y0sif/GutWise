@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/32229334/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 32229334
+title: Mind-body treatments of irritable bowel syndrome symptoms: An updated meta-analysis.
+journal: Behaviour research and therapy
+year: 2020
+---
+
+Irritable bowel syndrome (IBS) is a widespread chronic functional gastrointestinal (GI) disorder having bidirectional comorbidity with psychiatric disorders. This review focuses on psychological treatment of IBS, focusing on symptom severity rather than IBS diagnostic criteria. We chose this dimensional approach in order to assess mind-body effects as an alternative or complement to conventional medical treatment, which focuses on symptom relief. We calculated the effect sizes for various psychosocial-mind-body therapies (MBTs) for IBS symptoms in both children and adults. Therapies included meditation, relaxation, yoga, autogenic training, progressive relaxation, general training in stress coping, hypnotherapy, biofeedback, psycho-education, psychodynamic psychotherapy, and cognitive behavioral therapy. We performed a meta-regression analyses and mixed effects contrasts to find various outcome differences, and we analyzed their relative efficacy in both children and adults. We found 53 studies in 50 reports describing randomized controlled trials. Medium to high effect sizes were found across all methods compared with various controls, with possibly higher effects for children. We found no systematic differences among treatment methods. Meta-regression analyses showed no significant effect for the presence of psychophysiological training, meditation or explicit exposure procedures as treatment components, although most MBTs include exposure as a nonexplicit treatment characteristic, and many relaxation techniques have meditative characteristics. We conclude that there is considerable evidence that an array of mind-body and other psychological therapies can be effective complements to medical treatment for IBS symptom severity, with little evidence for relative superiority of any particular approach. We suggest that the various methods may operate through different mechanisms.

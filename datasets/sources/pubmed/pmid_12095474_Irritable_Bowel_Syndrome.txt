@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/12095474/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 12095474
+title: Irritable Bowel Syndrome.
+journal: Current treatment options in gastroenterology
+year: 2002
+---
+
+Because treatment of irritable bowel syndrome (IBS) patients can be frustrating to the clinician and patient as well, the physician should strive to gain the patient's confidence with a concise, appropriate work-up and by offering reassurance and education that IBS is a functional disorder without significant long-term health risks. First-line treatment should be aimed at treating the most bothersome symptom. Tricyclic antidepressants are superior to placebo in reducing abdominal pain scores, as well as improving global symptom severity. Loperamide is superior to placebo in managing IBS-associated diarrhea. Whereas fiber has a role in treating constipation, its value for IBS or, specifically, in the relief of abdominal pain or diarrhea associated with IBS is controversial. Although certain antispasmodics have demonstrated superiority over placebo in managing abdominal pain, none of these agents are available in the United States. Probiotic therapy using Lactobacillus plantarum has demonstrated superiority to placebo in improving pain, regulating bowel habits, and decreasing flatulence. As studied in a recent placebo-controlled prospective study, Chinese herbal medicines significantly improved bowel symptom scores and global symptom profile, and reduced IBS-related quality of life impairment. Some of the most promising emerging therapies in IBS revolve around targeted pharmacotherapeutic modulation of serotonin receptors (ie, 5-HT3 and 5-HT4 subtypes), which are involved in sensory and motor functions of the gut. Other investigational agents that are also being explored include cholecystokinin antagonists, alpha2-adrenergic agonists (eg, clonidine), serotonin reuptake inhibitors (eg, citalopram), and neurokinin antagonists. IBS is best understood through the biopsychosocial paradigm, and therefore, its effective management requires a comprehensive multidisciplinary approach based on patient education and reassurance, enhanced by diet recommendations and lifestyle modifications, and complemented by pharmacotherapy and psychosocial intervention in more severe cases.

@@ -1,0 +1,16 @@
+---
+source: PubMed — Irritable bowel syndrome: a clinical review.
+url: https://pubmed.ncbi.nlm.nih.gov/25734736/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12T21:36:33Z
+---
+
+IMPORTANCE: Irritable bowel syndrome (IBS) affects 7% to 21% of the general population. It is a chronic condition that can substantially reduce quality of life and work productivity.
+
+OBJECTIVES: To summarize the existing evidence on epidemiology, pathophysiology, and diagnosis of IBS and to provide practical treatment recommendations for generalists and specialists according to the best available evidence.
+
+EVIDENCE REVIEW: A search of Ovid (MEDLINE) and Cochrane Database of Systematic Reviews was performed for literature from 2000 to December 2014 for the terms pathophysiology, etiology, pathogenesis, diagnosis, irritable bowel syndrome, and IBS. The range was expanded from 1946 to December 2014 for IBS, irritable bowel syndrome, diet, treatment, and therapy.
+
+FINDINGS: The database search yielded 1303 articles, of which 139 were selected for inclusion. IBS is not a single disease but rather a symptom cluster resulting from diverse pathologies. Factors important to the development of IBS include alterations in the gut microbiome, intestinal permeability, gut immune function, motility, visceral sensation, brain-gut interactions, and psychosocial status. The diagnosis of IBS relies on symptom-based criteria, exclusion of concerning features (symptom onset after age 50 years, unexplained weight loss, family history of selected organic gastrointestinal diseases, evidence of gastrointestinal blood loss, and unexplained iron-deficiency anemia), and the performance of selected tests (complete blood cell count, C-reactive protein or fecal calprotectin, serologic testing for celiac disease, and age-appropriate colorectal cancer screening) to exclude organic diseases that can mimic IBS. Determining the predominant symptom (IBS with diarrhea, IBS with constipation, or mixed IBS) plays an important role in selection of diagnostic tests and treatments. Various dietary, lifestyle, medical, and behavioral interventions have proven effective in randomized clinical trials.
+
+CONCLUSIONS AND RELEVANCE: The diagnosis of IBS relies on the identification of characteristic symptoms and the exclusion of other organic diseases. Management of patients with IBS is optimized by an individualized, holistic approach that embraces dietary, lifestyle, medical, and behavioral interventions.

@@ -1,0 +1,12 @@
+---
+source: PubMed
+url: https://pubmed.ncbi.nlm.nih.gov/24379577/
+license: PubMed Abstract (fair use)
+fetched: 2026-04-12
+pmid: 24379577
+title: Cognitive-behavioral therapy for the management of irritable bowel syndrome.
+journal: World journal of gastroenterology
+year: 2013
+---
+
+Irritable bowel syndrome (IBS) is a common disorder, reported to be found in 5%-20% of the general population. Its management accounts for up to 25% of a gastroenterologist's workload in the outpatient department, and the main symptoms are abdominal pain, bloating, and altered bowel habits. Despite a great amount of available pharmacological treatments aimed at a wide variety of gastrointestinal and brain targets, many patients have not shown adequate symptom relief. In recent years, there has been increasing evidence to suggest that psychological treatments, in particular cognitive-behavioral therapy (CBT), are effective for the management of IBS. This review discusses CBT for the management of IBS. CBT has proved to be effective in alleviating the physical and psychological symptoms of IBS and has thus been recommended as a treatment option for the syndrome.
