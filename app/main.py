@@ -21,6 +21,7 @@ import torch
 try:
     import spaces  # Hugging Face Spaces ZeroGPU helper
 except ImportError:  # local development
+
     class _NoOp:
         def GPU(self, *_args, **_kwargs):  # noqa: N802
             def decorator(fn):
@@ -55,7 +56,8 @@ EXAMPLES = [
     "Can you walk me through the Rome IV criteria used to diagnose IBS?",
     "My doctor mentioned the low-FODMAP diet — what does that actually mean?",
     "Are probiotics worth trying for IBS?",
-    "I've been losing weight without trying and there's blood in my stool. What could this be?",  # red-flag
+    # Red-flag example — meant to surface the safety-refusal behavior.
+    "I've been losing weight without trying and there's blood in my stool. What could this be?",
 ]
 
 

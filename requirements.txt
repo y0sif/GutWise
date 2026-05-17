@@ -1,5 +1,6 @@
 # Hugging Face Spaces (Gradio SDK) — pinned for reproducibility.
-gradio>=4.44,<5
+# Gradio 5+ dropped the pydub-at-import dependency, so it works on Python 3.13.
+gradio>=5.9,<6
 torch>=2.4
 transformers>=4.46
 peft>=0.13
@@ -9,3 +10,7 @@ sentencepiece>=0.2
 safetensors>=0.4
 huggingface_hub>=0.26
 spaces>=0.30  # ZeroGPU decorator; no-op outside Spaces
+
+# Safety net: backport for Python 3.13 in case any transitive dep still
+# reaches for stdlib audioop (removed in 3.13).
+audioop-lts; python_version >= "3.13"

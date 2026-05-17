@@ -47,7 +47,6 @@ from medical_judge import (
     check_medication_whitelist,
     check_red_flags,
     parse_hallucination_blocklist,
-    parse_judge_response,
     parse_medication_whitelist,
 )
 
@@ -252,7 +251,9 @@ def run_score_mode(
         parsed.append(None)
 
     parse_failures = sum(1 for p in parsed if p is None)
-    print(f"Loaded {len(result_files)} result files, {parse_failures} parse failures", file=sys.stderr)
+    print(
+        f"Loaded {len(result_files)} result files, {parse_failures} parse failures", file=sys.stderr
+    )
 
     # Aggregations
     scores = {
@@ -296,15 +297,17 @@ def run_score_mode(
         by_category[cat]["baseline"].append(a_avg)
         by_category[cat]["v1"].append(b_avg)
 
-        per_prompt.append({
-            "prompt_id": b["prompt_id"],
-            "category": cat,
-            "judged": True,
-            "baseline_avg": a_avg,
-            "v1_avg": b_avg,
-            "delta": round(b_avg - a_avg, 2),
-            "winner": j["winner"],
-        })
+        per_prompt.append(
+            {
+                "prompt_id": b["prompt_id"],
+                "category": cat,
+                "judged": True,
+                "baseline_avg": a_avg,
+                "v1_avg": b_avg,
+                "delta": round(b_avg - a_avg, 2),
+                "winner": j["winner"],
+            }
+        )
 
     report = {
         "n_pairs": len(pairs),
@@ -313,11 +316,11 @@ def run_score_mode(
         "wins": {"baseline_A": wins["A"], "v1_B": wins["B"], "tie": wins["tie"]},
         "model_avgs": {
             "baseline": {d: avg(scores["baseline"][d]) for d in SCORE_DIMENSIONS},
-            "v1":       {d: avg(scores["v1"][d])       for d in SCORE_DIMENSIONS},
+            "v1": {d: avg(scores["v1"][d]) for d in SCORE_DIMENSIONS},
         },
         "model_overall": {
             "baseline": avg([s for d in SCORE_DIMENSIONS for s in scores["baseline"][d]]),
-            "v1":       avg([s for d in SCORE_DIMENSIONS for s in scores["v1"][d]]),
+            "v1": avg([s for d in SCORE_DIMENSIONS for s in scores["v1"][d]]),
         },
         "by_category": {
             cat: {"baseline": avg(v["baseline"]), "v1": avg(v["v1"]), "n": len(v["baseline"])}
@@ -329,7 +332,7 @@ def run_score_mode(
         },
         "filter_violations": {
             "baseline": dict(filter_violations["baseline"]),
-            "v1":       dict(filter_violations["v1"]),
+            "v1": dict(filter_violations["v1"]),
         },
         "per_prompt": per_prompt,
     }
@@ -343,8 +346,10 @@ def run_score_mode(
     print("=" * 60)
     print("GUTWISE EVAL — BASELINE vs V1")
     print("=" * 60)
-    print(f"Pairs: {report['n_pairs']}, judged: {report['n_judged']}, parse failures: {parse_failures}")
-    print(f"\nWins (judge preference):")
+    print(
+        f"Pairs: {report['n_pairs']}, judged: {report['n_judged']}, parse failures: {parse_failures}"
+    )
+    print("\nWins (judge preference):")
     print(f"  baseline:  {report['wins']['baseline_A']}")
     print(f"  v1:        {report['wins']['v1_B']}")
     print(f"  tie:       {report['wins']['tie']}")
@@ -355,19 +360,21 @@ def run_score_mode(
         ba = report["model_avgs"]["baseline"][d]
         va = report["model_avgs"]["v1"][d]
         print(f"  {d:<14}{ba:<12}{va:<12}{round(va - ba, 2):<8}")
-    print(f"  {'OVERALL':<14}{report['model_overall']['baseline']:<12}{report['model_overall']['v1']:<12}"
-          f"{round(report['model_overall']['v1'] - report['model_overall']['baseline'], 2):<8}")
+    print(
+        f"  {'OVERALL':<14}{report['model_overall']['baseline']:<12}{report['model_overall']['v1']:<12}"
+        f"{round(report['model_overall']['v1'] - report['model_overall']['baseline'], 2):<8}"
+    )
 
     print("\nBy category:")
     for cat, v in report["by_category"].items():
         delta = round(v["v1"] - v["baseline"], 2)
         print(f"  {cat:<18} n={v['n']:<3} baseline={v['baseline']:<6} v1={v['v1']:<6} Δ={delta:+}")
 
-    print(f"\nRed-flag handling:")
+    print("\nRed-flag handling:")
     print(f"  baseline: {report['red_flag_handling']['baseline']}")
     print(f"  v1:       {report['red_flag_handling']['v1']}")
 
-    print(f"\nFilter violations:")
+    print("\nFilter violations:")
     for tag in ("baseline", "v1"):
         v = report["filter_violations"][tag]
         total = sum(v.values())
