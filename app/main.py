@@ -65,16 +65,32 @@ EXAMPLES = [
 class Models:
     tokenizer: object
     base: object
-    finetuned: object
+    # None while the LoRA adapter is being uploaded to the Hub.
+    finetuned: object | None
+    adapter_status: str  # "ready" | "missing" | "load_error: ..."
 
 
 _models: Models | None = None
 
 
+def _adapter_available() -> bool:
+    """Probe the Hub for the adapter so we can fall back to base cleanly."""
+    from huggingface_hub import HfApi
+    from huggingface_hub.utils import HfHubHTTPError, RepositoryNotFoundError
+
+    try:
+        HfApi().model_info(ADAPTER_ID)
+        return True
+    except (RepositoryNotFoundError, HfHubHTTPError):
+        return False
+
+
 def _load_models() -> Models:
     """Lazy-load base + LoRA on first inference call.
 
-    Kept out of import time so Spaces cold start renders the UI first.
+    If the adapter isn't on the Hub yet (Colab push pending), we fall back to
+    base Gemma 4 so the Space stays usable and the user gets a clear message
+    instead of a 500.
     """
     global _models
     if _models is not None:
@@ -91,10 +107,32 @@ def _load_models() -> Models:
         torch_dtype=dtype,
         device_map="auto" if torch.cuda.is_available() else None,
     )
-    finetuned = PeftModel.from_pretrained(base, ADAPTER_ID)
 
-    _models = Models(tokenizer=tokenizer, base=base, finetuned=finetuned)
+    finetuned: object | None = None
+    status = "missing"
+    if _adapter_available():
+        try:
+            finetuned = PeftModel.from_pretrained(base, ADAPTER_ID)
+            status = "ready"
+        except Exception as exc:  # pragma: no cover — Hub-flakiness path
+            status = f"load_error: {exc.__class__.__name__}"
+
+    _models = Models(
+        tokenizer=tokenizer,
+        base=base,
+        finetuned=finetuned,
+        adapter_status=status,
+    )
     return _models
+
+
+_ADAPTER_PENDING_MSG = (
+    "**GutWise v2 adapter is not yet published to Hugging Face Hub.** "
+    "The repo `y0sif/GutWise-v2` has not been pushed yet (the Colab notebook "
+    "that does this hasn't been run). Until then this Space falls back to "
+    "**base Gemma 4 E4B** so you can still try the UI — but the fine-tuned "
+    "behavior you see in the writeup is not what's serving you right now."
+)
 
 
 def _format_messages(history: list[dict[str, str]], user_msg: str) -> list[dict[str, str]]:
@@ -125,17 +163,43 @@ def _generate(model, tokenizer, messages: list[dict[str, str]]) -> str:
 
 @spaces.GPU(duration=120)
 def chat_finetuned(message: str, history: list[dict[str, str]]) -> str:
-    models = _load_models()
+    try:
+        models = _load_models()
+    except Exception as exc:
+        return f"Model failed to load: {exc.__class__.__name__}: {exc}"
+
     msgs = _format_messages(history, message)
-    return _generate(models.finetuned, models.tokenizer, msgs)
+    model = models.finetuned if models.finetuned is not None else models.base
+    try:
+        return _generate(model, models.tokenizer, msgs)
+    except Exception as exc:
+        return f"Generation error: {exc.__class__.__name__}: {exc}"
 
 
 @spaces.GPU(duration=180)
 def chat_compare(message: str) -> tuple[str, str]:
-    models = _load_models()
+    try:
+        models = _load_models()
+    except Exception as exc:
+        err = f"Model failed to load: {exc.__class__.__name__}: {exc}"
+        return err, err
+
     msgs = _format_messages([], message)
-    base_out = _generate(models.base, models.tokenizer, msgs)
-    ft_out = _generate(models.finetuned, models.tokenizer, msgs)
+    try:
+        base_out = _generate(models.base, models.tokenizer, msgs)
+    except Exception as exc:
+        base_out = f"Generation error: {exc.__class__.__name__}: {exc}"
+
+    if models.finetuned is None:
+        ft_out = (
+            "GutWise v2 adapter not yet on the Hub — side-by-side will activate "
+            "after the Colab push to `y0sif/GutWise-v2`."
+        )
+    else:
+        try:
+            ft_out = _generate(models.finetuned, models.tokenizer, msgs)
+        except Exception as exc:
+            ft_out = f"Generation error: {exc.__class__.__name__}: {exc}"
     return base_out, ft_out
 
 
@@ -150,6 +214,12 @@ def build_ui() -> gr.Blocks:
             "in Rome IV, ACG, NICE, BSG, StatPearls, NHS, and MedlinePlus."
         )
         gr.Markdown(f"> {DISCLAIMER}", elem_classes=["disclaimer"])
+
+        # Probe once at UI build time so the banner reflects current state.
+        # This call is cheap (single HEAD-ish request) and lets us avoid
+        # surfacing a 500 if the adapter hasn't been pushed yet.
+        if not _adapter_available():
+            gr.Markdown(f"> ⚠️ {_ADAPTER_PENDING_MSG}")
 
         with gr.Tab("Chat"):
             chat = gr.ChatInterface(
