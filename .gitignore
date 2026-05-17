@@ -23,11 +23,9 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (large files tracked separately)
-datasets/raw/
-*.bin
-*.safetensors
-*.gguf
+# Local Claude / MCP config (project-local, not for distribution)
+.mcp.json
+.claude/
 
 # OS
 .DS_Store
@@ -36,6 +34,27 @@ Thumbs.db
 # Weights & Biases
 wandb/
 
-# Model outputs
+# Model outputs (live on Drive / HF Hub, not in git)
 models/
 outputs/
+*.bin
+*.safetensors
+*.gguf
+
+# Datasets — keep only the final shipping artifacts.
+#   train_v2.jsonl (the 659-entry v2 training set)
+#   heldout_questions.jsonl (the 50-question eval set)
+# Everything else (intermediate generation passes, audit files, HF-filtered
+# raw data, v1 deduped, alternate train_finals) stays out of the public repo.
+datasets/audit/
+datasets/hf_filtered/
+datasets/generated/
+datasets/raw/
+
+datasets/validated/*
+!datasets/validated/train_v2.jsonl
+
+# v1 eval artifacts (regressed model, not shipped)
+notebooks/eval/gutwise_v1_eval.ipynb
+scripts/evaluate/results/eval_report.json
+scripts/evaluate/results/gutwise_v1_*.json

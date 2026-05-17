@@ -1,0 +1,11 @@
+# Hugging Face Spaces (Gradio SDK) — pinned for reproducibility.
+gradio>=4.44,<5
+torch>=2.4
+transformers>=4.46
+peft>=0.13
+accelerate>=0.34
+bitsandbytes>=0.44; sys_platform == "linux"
+sentencepiece>=0.2
+safetensors>=0.4
+huggingface_hub>=0.26
+spaces>=0.30  # ZeroGPU decorator; no-op outside Spaces

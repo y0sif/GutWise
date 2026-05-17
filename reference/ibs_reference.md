@@ -156,7 +156,10 @@ Evidence-based psychological interventions:
 
 ## 9. Probiotics
 
-- Some evidence for specific strains (Bifidobacterium infantis 35624)
+- Some evidence for specific strains:
+  - **Bifidobacterium infantis 35624** — strongest evidence, particularly for global IBS symptoms
+  - **Lactobacillus plantarum DSM 9843** (also known as 299v) — studied for abdominal pain and bloating
+  - **Bifidobacterium bifidum MIMBb75** — studied for global IBS symptom improvement
 - Effects are strain-specific — not all probiotics help IBS
 - Trial period of 4 weeks recommended; stop if no improvement
 - Dose and strain matter — general "probiotic" recommendations are insufficient

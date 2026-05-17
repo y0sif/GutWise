@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-labelledby="title desc">
+  <title id="title">GutWise — IBS Education Assistant on Gemma 4 E4B</title>
+  <desc id="desc">Title cover for the Kaggle Gemma 4 Good Hackathon Health and Sciences submission.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#d1fae5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect x="0" y="0" width="12" height="720" fill="url(#accent)"/>
+  <g font-family="ui-serif, Georgia, 'Times New Roman', serif" fill="#064e3b">
+    <text x="80" y="180" font-size="120" font-weight="700" letter-spacing="-2">GutWise</text>
+    <text x="80" y="240" font-size="32" font-weight="400" fill="#065f46">An offline-first IBS education assistant on Gemma 4 E4B.</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" fill="#064e3b">
+    <text x="80" y="360" font-size="22" font-weight="600" fill="#047857">RESULTS — 3-run paired eval vs base Gemma 4 E4B</text>
+    <g font-size="28" font-weight="500">
+      <text x="80" y="410">Overall <tspan font-weight="700">4.769 ± 0.028</tspan>  vs baseline <tspan>4.696</tspan>  (Δ +0.073, beats baseline + 2σ)</text>
+      <text x="80" y="450">Empathy <tspan font-weight="700">+0.11</tspan>  ·  Completeness <tspan font-weight="700">+0.23</tspan>  ·  Safety preserved</text>
+      <text x="80" y="490">Red-flag handling <tspan font-weight="700">4/4 across all 3 runs</tspan></text>
+    </g>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" fill="#065f46">
+    <text x="80" y="600" font-size="20" font-weight="500">Grounded in Rome IV · ACG 2021 · NICE CG61 · BSG 2021 · StatPearls · NHS · MedlinePlus</text>
+    <text x="80" y="640" font-size="18" font-weight="400">Kaggle Gemma 4 Good Hackathon — Health &amp; Sciences track  ·  Apache-2.0  ·  github.com/y0sif/GutWise</text>
+  </g>
+  <g transform="translate(1050, 120)" fill="#10b981" opacity="0.18">
+    <circle cx="60" cy="60" r="120"/>
+    <circle cx="60" cy="60" r="80" fill="#059669" opacity="0.7"/>
+    <path d="M30 60 q30 -40 60 0 t-60 0z" fill="#ecfdf5"/>
+  </g>
+</svg>

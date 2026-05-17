@@ -5,6 +5,7 @@ Any medication not on this list appearing in a generated response should be flag
 
 ## Antispasmodics
 - Hyoscine butylbromide (Buscopan/Hyoscine)
+- Hyoscyamine (Levsin/Levbid/Anaspaz) — US, same belladonna alkaloid family as hyoscine butylbromide
 - Peppermint oil (enteric-coated capsules)
 - Dicyclomine (Bentyl)
 - Mebeverine (Colofac)
@@ -24,6 +25,7 @@ Any medication not on this list appearing in a generated response should be flag
 - Linaclotide (Linzess/Constella)
 - Lubiprostone (Amitiza)
 - Plecanatide (Trulance)
+- Tenapanor (Ibsrela) — FDA-approved for IBS-C (2019); NHE3 inhibitor reducing sodium and water absorption
 - PEG 3350 (Miralax/Movicol)
 - Bisacodyl (occasional use)
 - Psyllium (Metamucil) — fiber supplement

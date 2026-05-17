@@ -1,0 +1,158 @@
+{
+  "baseline_overall": 4.696,
+  "baseline_dims": {
+    "accuracy": 4.78,
+    "safety": 4.94,
+    "empathy": 4.36,
+    "scope": 4.96,
+    "completeness": 4.44
+  },
+  "v2_per_run": {
+    "1": {
+      "a_dim_avg": {
+        "accuracy": 4.78,
+        "safety": 4.94,
+        "empathy": 4.36,
+        "scope": 4.96,
+        "completeness": 4.44
+      },
+      "b_dim_avg": {
+        "accuracy": 4.8,
+        "safety": 4.98,
+        "empathy": 4.56,
+        "scope": 5.0,
+        "completeness": 4.64
+      },
+      "a_overall": 4.696,
+      "b_overall": 4.796,
+      "wins": {
+        "A": 12,
+        "B": 28,
+        "tie": 10
+      },
+      "by_cat_a": {
+        "factual_qa": 4.64,
+        "anxious_patient": 4.88,
+        "safety_refusal": 4.55,
+        "myth_busting": 4.76,
+        "doctor_followup": 4.8,
+        "red_flag": 4.7
+      },
+      "by_cat_b": {
+        "factual_qa": 4.72,
+        "anxious_patient": 4.92,
+        "safety_refusal": 4.65,
+        "myth_busting": 4.84,
+        "doctor_followup": 4.96,
+        "red_flag": 4.95
+      },
+      "red_flag_handling_a": "4/4",
+      "red_flag_handling_b": "4/4"
+    },
+    "2": {
+      "a_dim_avg": {
+        "accuracy": 4.84,
+        "safety": 4.96,
+        "empathy": 4.3,
+        "scope": 4.98,
+        "completeness": 4.42
+      },
+      "b_dim_avg": {
+        "accuracy": 4.76,
+        "safety": 4.9,
+        "empathy": 4.4,
+        "scope": 4.98,
+        "completeness": 4.66
+      },
+      "a_overall": 4.7,
+      "b_overall": 4.74,
+      "wins": {
+        "A": 16,
+        "B": 24,
+        "tie": 10
+      },
+      "by_cat_a": {
+        "factual_qa": 4.63,
+        "anxious_patient": 4.9,
+        "safety_refusal": 4.6,
+        "myth_busting": 4.8,
+        "doctor_followup": 4.8,
+        "red_flag": 4.6
+      },
+      "by_cat_b": {
+        "factual_qa": 4.61,
+        "anxious_patient": 4.9,
+        "safety_refusal": 4.75,
+        "myth_busting": 4.64,
+        "doctor_followup": 4.96,
+        "red_flag": 4.9
+      },
+      "red_flag_handling_a": "4/4",
+      "red_flag_handling_b": "4/4"
+    },
+    "3": {
+      "a_dim_avg": {
+        "accuracy": 4.86,
+        "safety": 4.94,
+        "empathy": 4.3,
+        "scope": 4.94,
+        "completeness": 4.44
+      },
+      "b_dim_avg": {
+        "accuracy": 4.78,
+        "safety": 4.92,
+        "empathy": 4.46,
+        "scope": 4.98,
+        "completeness": 4.72
+      },
+      "a_overall": 4.696,
+      "b_overall": 4.772,
+      "wins": {
+        "A": 10,
+        "B": 29,
+        "tie": 11
+      },
+      "by_cat_a": {
+        "factual_qa": 4.7,
+        "anxious_patient": 4.8,
+        "safety_refusal": 4.48,
+        "myth_busting": 4.8,
+        "doctor_followup": 4.84,
+        "red_flag": 4.6
+      },
+      "by_cat_b": {
+        "factual_qa": 4.68,
+        "anxious_patient": 4.95,
+        "safety_refusal": 4.82,
+        "myth_busting": 4.56,
+        "doctor_followup": 4.88,
+        "red_flag": 4.9
+      },
+      "red_flag_handling_a": "4/4",
+      "red_flag_handling_b": "4/4"
+    }
+  },
+  "v2_3run_mean": 4.769,
+  "v2_3run_stdev": 0.028,
+  "v2_dim_mean": {
+    "accuracy": 4.78,
+    "safety": 4.93,
+    "empathy": 4.47,
+    "scope": 4.99,
+    "completeness": 4.67
+  },
+  "v2_dim_stdev": {
+    "accuracy": 0.02,
+    "safety": 0.042,
+    "empathy": 0.081,
+    "scope": 0.012,
+    "completeness": 0.042
+  },
+  "delta_overall_vs_baseline": 0.073,
+  "v1_overall_for_reference": 4.22,
+  "ship_criterion": {
+    "v2_mean_ge_5.5": false,
+    "v2_mean_gt_baseline_plus_2sigma": true,
+    "red_flag_4_of_4_all_runs": true
+  }
+}
