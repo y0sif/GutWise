@@ -12,11 +12,37 @@ back to CPU (bf16, low-memory) locally and on `cpu-basic` Spaces.
 
 from __future__ import annotations
 
+import logging
 import os
+import traceback
 from dataclasses import dataclass
 
 import gradio as gr
 import torch
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+)
+logger = logging.getLogger("gutwise")
+
+
+def _format_exc_for_user(exc: BaseException, prefix: str) -> str:
+    """User-visible error string. `exc!r` catches empty-message exceptions.
+
+    Always logs the full traceback server-side (Spaces runtime log) so we
+    never silently lose information again.
+    """
+    logger.exception("%s", prefix)
+    frames = traceback.format_exception(type(exc), exc, exc.__traceback__)
+    tb_tail = "".join(frames[-3:])
+    return f"{prefix}: {type(exc).__name__}: {exc!r}\n\nTraceback (last 3 frames):\n{tb_tail}"
+
+
+def _device_of(model) -> torch.device:
+    """Robust device probe — `model.device` is unreliable on PeftModel + CPU + low_cpu_mem_usage."""
+    return next(model.parameters()).device
+
 
 try:
     import spaces  # Hugging Face Spaces ZeroGPU helper
@@ -151,11 +177,16 @@ def _format_messages(history: list[dict[str, str]], user_msg: str) -> list[dict[
 
 
 def _generate(model, tokenizer, messages: list[dict[str, str]]) -> str:
+    device = _device_of(model)
     inputs = tokenizer.apply_chat_template(
         messages,
         add_generation_prompt=True,
         return_tensors="pt",
-    ).to(model.device)
+    ).to(device)
+    # `model.generate` expects (batch, seq); some transformers versions return 1-D ids
+    # from `apply_chat_template`. Add an explicit batch dim if needed.
+    if hasattr(inputs, "dim") and inputs.dim() == 1:
+        inputs = inputs.unsqueeze(0)
     with torch.inference_mode():
         out = model.generate(
             inputs,
@@ -173,14 +204,14 @@ def chat_finetuned(message: str, history: list[dict[str, str]]) -> str:
     try:
         models = _load_models()
     except Exception as exc:
-        return f"Model failed to load: {exc.__class__.__name__}: {exc}"
+        return _format_exc_for_user(exc, "Model failed to load")
 
     msgs = _format_messages(history, message)
     model = models.finetuned if models.finetuned is not None else models.base
     try:
         return _generate(model, models.tokenizer, msgs)
     except Exception as exc:
-        return f"Generation error: {exc.__class__.__name__}: {exc}"
+        return _format_exc_for_user(exc, "Generation error")
 
 
 @spaces.GPU(duration=180)
@@ -188,14 +219,14 @@ def chat_compare(message: str) -> tuple[str, str]:
     try:
         models = _load_models()
     except Exception as exc:
-        err = f"Model failed to load: {exc.__class__.__name__}: {exc}"
+        err = _format_exc_for_user(exc, "Model failed to load")
         return err, err
 
     msgs = _format_messages([], message)
     try:
         base_out = _generate(models.base, models.tokenizer, msgs)
     except Exception as exc:
-        base_out = f"Generation error: {exc.__class__.__name__}: {exc}"
+        base_out = _format_exc_for_user(exc, "Generation error")
 
     if models.finetuned is None:
         ft_out = (
@@ -206,7 +237,7 @@ def chat_compare(message: str) -> tuple[str, str]:
         try:
             ft_out = _generate(models.finetuned, models.tokenizer, msgs)
         except Exception as exc:
-            ft_out = f"Generation error: {exc.__class__.__name__}: {exc}"
+            ft_out = _format_exc_for_user(exc, "Generation error")
     return base_out, ft_out
 
 
