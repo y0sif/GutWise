@@ -235,7 +235,7 @@ The dataset compilation itself is **Apache-2.0**.
 ## Known limitations
 
 - **`myth_busting` is underrepresented** — 47 train / 5 eval entries. It's the single category v2 regressed on (−0.08, within σ). More targeted myth-busting pairs are on the v3 backlog.
-- **No eval duplicates** — earlier notes claimed `eval_049` and `eval_050` were duplicate red-flag questions; **they are not**. `eval_049` is family-history + new-onset symptoms; `eval_050` is fever + nocturnal symptoms. Different red flags, distinct prompts. The model card claim of a duplicate is incorrect and will be corrected.
+- **No eval duplicates** — earlier notes claimed `eval_049` and `eval_050` were duplicate red-flag questions; **they are not**. `eval_049` is family-history + new-onset symptoms; `eval_050` is fever + nocturnal symptoms. Different red flags, distinct prompts.
 - **Hallucination patterns inherited from base Gemma 4** — the curated training set rejects them, but a model fine-tuned on this dataset can still emit the "*L. rhamnosus* GC69" pattern (canonical strain is GG) at generation time. v3 will add explicit anti-hallucination pairs.
 - **50-question held-out eval is a vibe check, not a clinical trial.** It's adequate for paired LLM-judge comparison but not a substitute for human-expert evaluation.
 - **`source` / `source_license` metadata is present on 428 / 659 rows.** The other 231 rows were generated from grounding-doc chunks without per-row source attribution; the reference doc itself is the substrate.

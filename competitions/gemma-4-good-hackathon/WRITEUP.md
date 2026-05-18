@@ -53,7 +53,7 @@ The retrospective produced six levers:
 | 3. Lower the LoRA dials | r=16 → **r=8** | <2k examples cannot support r=16 without over-updating |
 | 4. Tighten the rest | dropout 0.05 → 0, eff batch 8 → 32, 2 ep → **1 ep** | Smoother gradients, less drift |
 | 5. Fix the judge | Truncation cap `[:2500]` → `[:5000]` | The baseline was being silently handicapped at the eval level |
-| 6. 3-run variance eval | Single Haiku judge batch over all 150 paired prompts | A single seed at T=0.7 can land ±1.7σ from the mean — see the v4 Arcwright retraction |
+| 6. 3-run variance eval | Single Haiku judge batch over all 150 paired prompts | A single seed at T=0.7 can land ±1.7σ from the mean — single-run evals are unreliable for small-effect comparisons. |
 
 The change that mattered most was Lever 3 (capacity). The change that proved the result was Lever 6 (variance discipline). Everything else was hygiene.
 
@@ -130,7 +130,6 @@ The demo runs offline on a 16 GB+ GPU; it's also deployed to Hugging Face Spaces
 - **English only.** Translation is out of scope.
 - **Adults only.** Pediatric IBS criteria differ; the training data is adult-focused.
 - **Base model quirks are inherited.** Some hallucinations (e.g., "*L. rhamnosus* GC69") come from base Gemma 4 and survive the fine-tune; v3 anti-hallucination pairs are planned.
-- **eval_049/050 were initially flagged as duplicates** but verified to cover distinct red flags (family-history vs. fever + nocturnal symptoms).
 
 ## 10. What's next (v3 plan, deferred until post-hackathon)
 

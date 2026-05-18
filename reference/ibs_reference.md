@@ -1,8 +1,8 @@
 # IBS Medical Reference
 
-This file is the equivalent of OxideCoder's `api_reference.md`. It contains verified medical
-facts that MUST be included in every sub-agent prompt during data generation to prevent
-hallucination. All facts are sourced from peer-reviewed guidelines and open-access resources.
+It contains verified medical facts that MUST be included in every sub-agent prompt during
+data generation to prevent hallucination. All facts are sourced from peer-reviewed guidelines
+and open-access resources.
 
 ## Sources
 
