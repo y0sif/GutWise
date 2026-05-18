@@ -378,6 +378,11 @@ def build_ui() -> gr.Blocks:
         with gr.Tab("About"):
             gr.Markdown(_about_md())
 
+    # Bound the queue so a slow `cpu-basic` worker can't accumulate hundreds of
+    # pending requests: when the queue is full, Gradio surfaces a clear
+    # "queue full" message to clients instead of an infinite spinner that
+    # eventually shows up as "Error" once the websocket idles out.
+    ui.queue(max_size=4, default_concurrency_limit=1)
     return ui
 
 
