@@ -92,6 +92,7 @@ Eval protocol: 50 held-out IBS questions × 3 seeds (42/43/44) = 150 paired prom
 | NEFTune | Disabled (L4 OOM) |
 | Hardware | Colab A100 |
 | Dataset size | 659 audited IBS Q&A pairs |
+| Training data | [`y0sif/GutWise-IBS-QA`](https://huggingface.co/datasets/y0sif/GutWise-IBS-QA) (train split) |
 
 ## Intended use
 
@@ -109,7 +110,7 @@ Eval protocol: 50 held-out IBS questions × 3 seeds (42/43/44) = 150 paired prom
 
 - Some hallucinations are inherited from base Gemma 4 (e.g., the "*L. rhamnosus* GC69" pattern — canonical strain is GG). v3 anti-hallucination pairs are planned.
 - One category, myth_busting, regressed slightly (−0.08, within σ); v3 adds targeted training pairs.
-- Held-out eval set had 2 duplicate red-flag questions (eval_049/050); fix on v3 backlog.
+- Held-out eval is 50 questions across 6 categories — a vibe check rather than a clinical trial. Earlier notes flagged `eval_049`/`eval_050` as duplicate red-flag prompts, but they cover distinct red flags (family-history vs. fever + nocturnal symptoms).
 
 ## Sources
 

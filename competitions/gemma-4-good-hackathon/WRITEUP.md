@@ -3,7 +3,7 @@
 **Kaggle Gemma 4 Good Hackathon — Health & Sciences track**
 
 **Author:** y0sif &nbsp;|&nbsp; **License:** Apache-2.0
-**Code:** https://github.com/y0sif/GutWise &nbsp;|&nbsp; **Model:** https://huggingface.co/y0sif/GutWise &nbsp;|&nbsp; **Demo:** https://huggingface.co/spaces/y0sif/GutWise
+**Code:** https://github.com/y0sif/GutWise &nbsp;|&nbsp; **Model:** https://huggingface.co/y0sif/GutWise &nbsp;|&nbsp; **Dataset:** https://huggingface.co/datasets/y0sif/GutWise-IBS-QA &nbsp;|&nbsp; **Demo:** https://huggingface.co/spaces/y0sif/GutWise
 
 > *GutWise is educational. It is not medical advice and not a diagnostic tool. Red-flag symptoms (rectal bleeding, unintentional weight loss, fever, nocturnal symptoms, onset after age 50, family history of colorectal cancer or IBD) require evaluation by a clinician.*
 

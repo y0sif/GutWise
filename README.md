@@ -122,6 +122,7 @@ The judge protocol pairs each v2 response against the baseline response side-by-
 - **Track**: Health & Sciences
 - **Writeup**: [`competitions/gemma-4-good-hackathon/WRITEUP.md`](competitions/gemma-4-good-hackathon/WRITEUP.md)
 - **Model**: [`y0sif/GutWise`](https://huggingface.co/y0sif/GutWise) (LoRA adapter on `unsloth/gemma-4-E4B-it`)
+- **Dataset**: [`y0sif/GutWise-IBS-QA`](https://huggingface.co/datasets/y0sif/GutWise-IBS-QA) (659 audited train pairs + 50-question held-out eval)
 - **Demo**: [Hugging Face Space](https://huggingface.co/spaces/y0sif/GutWise) (link goes live on submission day)
 - **Video**: see writeup
 
