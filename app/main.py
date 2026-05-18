@@ -178,25 +178,43 @@ def _format_messages(history: list[dict[str, str]], user_msg: str) -> list[dict[
 
 def _generate(model, tokenizer, messages: list[dict[str, str]]) -> str:
     device = _device_of(model)
-    inputs = tokenizer.apply_chat_template(
+    # Render the chat template to text, then tokenize so we get an explicit
+    # attention_mask and can pass pad_token_id to generate. Without those,
+    # transformers floods the runtime log with "attention mask was not set".
+    prompt = tokenizer.apply_chat_template(
         messages,
         add_generation_prompt=True,
-        return_tensors="pt",
-    ).to(device)
-    # `model.generate` expects (batch, seq); some transformers versions return 1-D ids
-    # from `apply_chat_template`. Add an explicit batch dim if needed.
-    if hasattr(inputs, "dim") and inputs.dim() == 1:
-        inputs = inputs.unsqueeze(0)
+        tokenize=False,
+    )
+    batch = tokenizer(prompt, return_tensors="pt").to(device)
     with torch.inference_mode():
         out = model.generate(
-            inputs,
+            **batch,
             max_new_tokens=MAX_NEW_TOKENS,
             do_sample=True,
             temperature=TEMPERATURE,
             top_p=0.9,
+            pad_token_id=tokenizer.eos_token_id,
         )
-    decoded = tokenizer.decode(out[0, inputs.shape[-1] :], skip_special_tokens=True)
+    decoded = tokenizer.decode(out[0, batch["input_ids"].shape[-1] :], skip_special_tokens=True)
     return decoded.strip()
+
+
+def _is_oom(exc: BaseException) -> bool:
+    """Detect both CPU MemoryError and CUDA OOM across torch versions."""
+    if isinstance(exc, MemoryError):
+        return True
+    cuda_oom = getattr(torch.cuda, "OutOfMemoryError", None)
+    if cuda_oom is not None and isinstance(exc, cuda_oom):
+        return True
+    return "out of memory" in str(exc).lower()
+
+
+_OOM_MSG = (
+    "Out of memory. On `cpu-basic` (16 GB) Gemma 4 E4B can be tight on long prompts. "
+    "Try a shorter question, or upgrade the Space hardware "
+    "(Settings → Space hardware → ZeroGPU)."
+)
 
 
 @spaces.GPU(duration=120)
@@ -211,6 +229,9 @@ def chat_finetuned(message: str, history: list[dict[str, str]]) -> str:
     try:
         return _generate(model, models.tokenizer, msgs)
     except Exception as exc:
+        if _is_oom(exc):
+            logger.exception("OOM during chat_finetuned")
+            return _OOM_MSG
         return _format_exc_for_user(exc, "Generation error")
 
 
@@ -226,7 +247,11 @@ def chat_compare(message: str) -> tuple[str, str]:
     try:
         base_out = _generate(models.base, models.tokenizer, msgs)
     except Exception as exc:
-        base_out = _format_exc_for_user(exc, "Generation error")
+        if _is_oom(exc):
+            logger.exception("OOM during chat_compare (base)")
+            base_out = _OOM_MSG
+        else:
+            base_out = _format_exc_for_user(exc, "Generation error")
 
     if models.finetuned is None:
         ft_out = (
@@ -237,7 +262,11 @@ def chat_compare(message: str) -> tuple[str, str]:
         try:
             ft_out = _generate(models.finetuned, models.tokenizer, msgs)
         except Exception as exc:
-            ft_out = _format_exc_for_user(exc, "Generation error")
+            if _is_oom(exc):
+                logger.exception("OOM during chat_compare (finetuned)")
+                ft_out = _OOM_MSG
+            else:
+                ft_out = _format_exc_for_user(exc, "Generation error")
     return base_out, ft_out
 
 

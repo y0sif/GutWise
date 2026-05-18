@@ -35,18 +35,27 @@ base_id = "unsloth/gemma-4-E4B-it"
 adapter_id = "y0sif/GutWise"
 
 tok = AutoTokenizer.from_pretrained(base_id)
-model = AutoModelForImageTextToText.from_pretrained(
+base = AutoModelForImageTextToText.from_pretrained(
     base_id, torch_dtype=torch.bfloat16, device_map="auto"
 )
-model = PeftModel.from_pretrained(model, adapter_id)
+model = PeftModel.from_pretrained(base, adapter_id)
+device = next(model.parameters()).device  # robust on PeftModel; model.device can be unreliable
 
 messages = [
     {"role": "system", "content": "You are GutWise, an IBS health education assistant. ..."},
     {"role": "user", "content": "What is the low-FODMAP diet?"},
 ]
-inputs = tok.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt").to(model.device)
-out = model.generate(inputs, max_new_tokens=512, do_sample=True, temperature=0.7, top_p=0.9)
-print(tok.decode(out[0, inputs.shape[-1]:], skip_special_tokens=True))
+prompt = tok.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
+batch = tok(prompt, return_tensors="pt").to(device)
+out = model.generate(
+    **batch,
+    max_new_tokens=512,
+    do_sample=True,
+    temperature=0.7,
+    top_p=0.9,
+    pad_token_id=tok.eos_token_id,
+)
+print(tok.decode(out[0, batch["input_ids"].shape[-1]:], skip_special_tokens=True))
 ```
 
 ## Eval results (v2, 3-run mean ± σ)
