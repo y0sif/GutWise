@@ -26,6 +26,16 @@ venv/
 # Local Claude / MCP config (project-local, not for distribution)
 .mcp.json
 .claude/
+CLAUDE.md
+
+# Internal hackathon scratch — kept on disk for the author, not in the public repo
+docs/hackathon.md
+competitions/gemma-4-good-hackathon/NOTE.md
+competitions/gemma-4-good-hackathon/SUBMISSION_CHECKLIST.md
+competitions/gemma-4-good-hackathon/VIDEO_SCRIPT.md
+competitions/gemma-4-good-hackathon/VIDEO_SCRIPT_MINIMAL.md
+competitions/gemma-4-good-hackathon/QUICK_DEMO_GUIDE.md
+competitions/gemma-4-good-hackathon/PROJECT_DESCRIPTION.md
 
 # OS
 .DS_Store
