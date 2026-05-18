@@ -12,10 +12,12 @@ back to CPU (bf16, low-memory) locally and on `cpu-basic` Spaces.
 
 from __future__ import annotations
 
+import json
 import logging
 import os
 import traceback
 from dataclasses import dataclass
+from pathlib import Path
 
 import gradio as gr
 import torch
@@ -277,6 +279,23 @@ def _refresh_banner():
     return gr.update(visible=True, value=f"> ⚠️ {_ADAPTER_PENDING_MSG}")
 
 
+def _load_cached_examples() -> list[dict]:
+    """Read pre-generated demo responses from app/cached_examples.json if present.
+
+    Used by the Quick Demo tab so we can record a video without waiting for
+    a live CPU inference call to finish. Empty list = tab hidden.
+    """
+    path = Path(__file__).parent / "cached_examples.json"
+    if not path.is_file():
+        return []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data if isinstance(data, list) else []
+    except (json.JSONDecodeError, OSError):
+        logger.exception("Failed to read %s", path)
+        return []
+
+
 def build_ui() -> gr.Blocks:
     with gr.Blocks(
         title="GutWise — IBS Education Assistant",
@@ -291,6 +310,44 @@ def build_ui() -> gr.Blocks:
 
         banner = gr.Markdown(visible=False)
         ui.load(_refresh_banner, outputs=[banner])
+
+        cached = _load_cached_examples()
+        if cached:
+            with gr.Tab("Quick demo (instant)"):
+                gr.Markdown(
+                    "Pre-generated outputs from this fine-tune — real responses, "
+                    "captured on a GPU pass and shown instantly here so the demo "
+                    "doesn't wait on CPU inference. For your own questions, use "
+                    "the **Chat** tab (slow on `cpu-basic`)."
+                )
+                for ex in cached:
+                    label = ex.get("label") or ex.get("prompt", "Example")
+                    prompt = ex.get("prompt", "")
+                    ft_resp = ex.get("finetuned", "")
+                    base_resp = ex.get("base")
+                    with gr.Accordion(label, open=False):
+                        gr.Markdown(f"**Prompt**\n\n> {prompt}")
+                        if base_resp:
+                            with gr.Row():
+                                gr.Textbox(
+                                    value=base_resp,
+                                    label="Base Gemma 4 E4B",
+                                    lines=10,
+                                    interactive=False,
+                                )
+                                gr.Textbox(
+                                    value=ft_resp,
+                                    label="GutWise",
+                                    lines=10,
+                                    interactive=False,
+                                )
+                        else:
+                            gr.Textbox(
+                                value=ft_resp,
+                                label="GutWise response",
+                                lines=10,
+                                interactive=False,
+                            )
 
         with gr.Tab("Chat"):
             chat = gr.ChatInterface(
