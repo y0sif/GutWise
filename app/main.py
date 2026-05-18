@@ -62,11 +62,11 @@ BASE_MODEL_ID = os.environ.get("GUTWISE_BASE", "unsloth/gemma-4-E4B-it")
 ADAPTER_ID = os.environ.get("GUTWISE_ADAPTER", "y0sif/GutWise")
 TEMPERATURE = 0.7
 
-# CPU-basic Spaces have 16 GB RAM and ~2 vCPU. Cap response length there so a
-# single turn finishes in tens of seconds, not minutes. ZeroGPU bursts can run
-# the full 512.
+# Medical answers (Rome IV walkthroughs, full FODMAP explanations, etc.) need
+# room. On GPU we let it run long; on cpu-basic we keep it bounded so a single
+# turn still finishes in a few minutes rather than timing out.
 _HAS_CUDA = torch.cuda.is_available()
-MAX_NEW_TOKENS = int(os.environ.get("GUTWISE_MAX_TOKENS", "512" if _HAS_CUDA else "256"))
+MAX_NEW_TOKENS = int(os.environ.get("GUTWISE_MAX_TOKENS", "1024" if _HAS_CUDA else "512"))
 
 SYSTEM_PROMPT = (
     "You are GutWise, an IBS health education assistant. You provide evidence-based "
