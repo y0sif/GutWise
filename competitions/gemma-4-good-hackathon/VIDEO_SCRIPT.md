@@ -34,7 +34,7 @@
 
 ## SCENE 4 — The killer feature: red-flag handling (1:10–1:40)
 
-**Visual**: Side-by-side tab. Type *"I've been losing weight without trying and there's blood in my stool. Could this be IBS?"*. Show base Gemma 4 on the left starting to discuss IBS subtypes. Show GutWise v2 on the right opening with **"These symptoms are red flags — please see a clinician promptly. They are not typical of IBS."** Then context.
+**Visual**: Side-by-side tab. Type *"I've been losing weight without trying and there's blood in my stool. Could this be IBS?"*. Show base Gemma 4 on the left starting to discuss IBS subtypes. Show GutWise on the right opening with **"These symptoms are red flags — please see a clinician promptly. They are not typical of IBS."** Then context.
 
 **Voiceover**:
 > Same prompt to base Gemma 4, same prompt to GutWise. Base model starts discussing IBS subtypes. GutWise opens with red-flag escalation — bloody stool and weight loss are not IBS until a doctor rules out the things that they actually could be. On our held-out eval, GutWise hit 4 out of 4 red-flag prompts correctly across three independent runs. Our first attempt at this fine-tune regressed to 2 out of 4. Getting back to 4 out of 4 is what this submission is really about.
@@ -54,7 +54,7 @@
 
 ## SCENE 6 — Close (2:25–2:50)
 
-**Visual**: title card again. URLs visible: github.com/y0sif/GutWise, huggingface.co/y0sif/GutWise-v2, huggingface.co/spaces/y0sif/GutWise. Apache-2.0 badge.
+**Visual**: title card again. URLs visible: github.com/y0sif/GutWise, huggingface.co/y0sif/GutWise, huggingface.co/spaces/y0sif/GutWise. Apache-2.0 badge.
 
 **Voiceover**:
 > GutWise is Apache-licensed. The model, the data, the eval set, the notebooks, and the demo are all in the repo. If you build medical assistants on small models, the methodology — audit first, ground every prompt, fine-tune small, evaluate paired with variance — is the part worth taking. Thanks for watching.

@@ -5,13 +5,13 @@ Usage (run from Colab where the adapter lives on Drive):
     HF_TOKEN=hf_xxx \\
     uv run python scripts/publish/push_model.py \\
         --adapter-dir /content/drive/MyDrive/GutWise/final/e4b-v2/lora_adapter \\
-        --repo-id y0sif/GutWise-v2
+        --repo-id y0sif/GutWise
 
 Local equivalent if you have the adapter checked out:
 
     uv run python scripts/publish/push_model.py \\
         --adapter-dir ./e4b-v2-lora \\
-        --repo-id y0sif/GutWise-v2
+        --repo-id y0sif/GutWise
 
 The model card is read from `scripts/publish/MODEL_CARD.md`.
 """
@@ -30,7 +30,7 @@ MODEL_CARD_PATH = REPO_ROOT / "scripts" / "publish" / "MODEL_CARD.md"
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--adapter-dir", required=True, help="Path to the LoRA adapter directory")
-    parser.add_argument("--repo-id", default="y0sif/GutWise-v2", help="HF Hub repo id")
+    parser.add_argument("--repo-id", default="y0sif/GutWise", help="HF Hub repo id")
     parser.add_argument(
         "--private",
         action="store_true",

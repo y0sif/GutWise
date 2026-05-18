@@ -16,7 +16,7 @@ library_name: peft
 pipeline_tag: text-generation
 ---
 
-# GutWise v2 — IBS Education Assistant (LoRA adapter)
+# GutWise — IBS Education Assistant (LoRA adapter)
 
 A QLoRA adapter for [`unsloth/gemma-4-E4B-it`](https://huggingface.co/unsloth/gemma-4-E4B-it), fine-tuned on 659 audited Irritable Bowel Syndrome Q&A pairs grounded in Rome IV, ACG 2021, NICE CG61, BSG 2021, StatPearls, NHS, and MedlinePlus.
 
@@ -32,7 +32,7 @@ from transformers import AutoModelForImageTextToText, AutoTokenizer
 import torch
 
 base_id = "unsloth/gemma-4-E4B-it"
-adapter_id = "y0sif/GutWise-v2"
+adapter_id = "y0sif/GutWise"
 
 tok = AutoTokenizer.from_pretrained(base_id)
 model = AutoModelForImageTextToText.from_pretrained(
@@ -51,7 +51,7 @@ print(tok.decode(out[0, inputs.shape[-1]:], skip_special_tokens=True))
 
 ## Eval results (v2, 3-run mean ± σ)
 
-| Metric | Baseline E4B | **GutWise v2** | Δ |
+| Metric | Baseline E4B | **GutWise** | Δ |
 |---|---|---|---|
 | Overall | 4.696 | **4.769 ± 0.028** | +0.073 |
 | Accuracy | 4.78 | 4.78 ± 0.02 | 0 |
@@ -118,10 +118,10 @@ Eval protocol: 50 held-out IBS questions × 3 seeds (42/43/44) = 150 paired prom
 ```
 @misc{gutwise2026,
   author       = {y0sif},
-  title        = {GutWise v2 — IBS Education Assistant on Gemma 4 E4B},
+  title        = {GutWise — IBS Education Assistant on Gemma 4 E4B},
   year         = {2026},
   howpublished = {Hugging Face Hub},
-  url          = {https://huggingface.co/y0sif/GutWise-v2}
+  url          = {https://huggingface.co/y0sif/GutWise}
 }
 ```
 

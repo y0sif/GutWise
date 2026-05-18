@@ -20,7 +20,7 @@ Irritable Bowel Syndrome affects **10–15% of the global population**, yet most
 
 ## Results (v2, 3-run mean ± σ)
 
-| Metric | Baseline E4B | **GutWise v2** | Δ |
+| Metric | Baseline E4B | **GutWise** | Δ |
 |---|---|---|---|
 | Overall (1–5 mean across 5 dims) | 4.696 | **4.769 ± 0.028** | **+0.073** (beats baseline + 2σ_v2) |
 | Empathy | 4.36 | 4.47 ± 0.08 | **+0.11** |
@@ -121,7 +121,7 @@ The judge protocol pairs each v2 response against the baseline response side-by-
 
 - **Track**: Health & Sciences
 - **Writeup**: [`competitions/gemma-4-good-hackathon/WRITEUP.md`](competitions/gemma-4-good-hackathon/WRITEUP.md)
-- **Model**: [`y0sif/GutWise-v2`](https://huggingface.co/y0sif/GutWise-v2) (LoRA adapter on `unsloth/gemma-4-E4B-it`)
+- **Model**: [`y0sif/GutWise`](https://huggingface.co/y0sif/GutWise) (LoRA adapter on `unsloth/gemma-4-E4B-it`)
 - **Demo**: [Hugging Face Space](https://huggingface.co/spaces/y0sif/GutWise) (link goes live on submission day)
 - **Video**: see writeup
 

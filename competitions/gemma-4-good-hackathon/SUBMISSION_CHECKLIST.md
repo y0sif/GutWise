@@ -28,7 +28,7 @@ From Colab (where the LoRA adapter is on Drive):
 %cd GutWise
 !python scripts/publish/push_model.py \
     --adapter-dir /content/drive/MyDrive/GutWise/final/e4b-v2/lora_adapter \
-    --repo-id y0sif/GutWise-v2
+    --repo-id y0sif/GutWise
 ```
 
 Get the token at https://huggingface.co/settings/tokens (write scope).
@@ -112,7 +112,7 @@ Click each link in an incognito window to confirm none of them require auth.
 gh repo view y0sif/GutWise --web
 
 # 2. Model is public on HF
-curl -sI https://huggingface.co/y0sif/GutWise-v2/resolve/main/adapter_config.json | head -1
+curl -sI https://huggingface.co/y0sif/GutWise/resolve/main/adapter_config.json | head -1
 
 # 3. Space is up
 curl -sI https://huggingface.co/spaces/y0sif/GutWise | head -1

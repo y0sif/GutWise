@@ -1,13 +1,13 @@
 """GutWise Gradio demo.
 
-Two tabs:
-  1. Chat — fine-tuned v2 model with a permanent disclaimer banner and a
-     side-by-side baseline comparison button.
-  2. About — pipeline overview, eval results, sources, limitations.
+Three tabs:
+  1. Chat — fine-tuned model with a permanent disclaimer banner.
+  2. Side-by-side baseline vs GutWise.
+  3. About — pipeline overview, eval results, sources, limitations.
 
-Loads the v2 LoRA adapter from Hugging Face Hub on top of `unsloth/gemma-4-E4B-it`.
+Loads the LoRA adapter from Hugging Face Hub on top of `unsloth/gemma-4-E4B-it`.
 Uses the ZeroGPU `@spaces.GPU` decorator when running on Hugging Face Spaces; falls
-back to a normal CUDA/CPU code path locally.
+back to CPU (bf16, low-memory) locally and on `cpu-basic` Spaces.
 """
 
 from __future__ import annotations
@@ -33,9 +33,14 @@ except ImportError:  # local development
 
 
 BASE_MODEL_ID = os.environ.get("GUTWISE_BASE", "unsloth/gemma-4-E4B-it")
-ADAPTER_ID = os.environ.get("GUTWISE_ADAPTER", "y0sif/GutWise-v2")
-MAX_NEW_TOKENS = 512
+ADAPTER_ID = os.environ.get("GUTWISE_ADAPTER", "y0sif/GutWise")
 TEMPERATURE = 0.7
+
+# CPU-basic Spaces have 16 GB RAM and ~2 vCPU. Cap response length there so a
+# single turn finishes in tens of seconds, not minutes. ZeroGPU bursts can run
+# the full 512.
+_HAS_CUDA = torch.cuda.is_available()
+MAX_NEW_TOKENS = int(os.environ.get("GUTWISE_MAX_TOKENS", "512" if _HAS_CUDA else "256"))
 
 SYSTEM_PROMPT = (
     "You are GutWise, an IBS health education assistant. You provide evidence-based "
@@ -65,7 +70,7 @@ EXAMPLES = [
 class Models:
     tokenizer: object
     base: object
-    # None while the LoRA adapter is being uploaded to the Hub.
+    # None when the adapter isn't reachable on the Hub (push pending).
     finetuned: object | None
     adapter_status: str  # "ready" | "missing" | "load_error: ..."
 
@@ -88,9 +93,11 @@ def _adapter_available() -> bool:
 def _load_models() -> Models:
     """Lazy-load base + LoRA on first inference call.
 
-    If the adapter isn't on the Hub yet (Colab push pending), we fall back to
-    base Gemma 4 so the Space stays usable and the user gets a clear message
-    instead of a 500.
+    bf16 on both CPU and GPU: modern PyTorch supports CPU bf16 ops, and fp32
+    weights would push a 4 B Gemma over `cpu-basic`'s 16 GB. `low_cpu_mem_usage`
+    avoids the transient peak during `from_pretrained` that often OOMs CPU.
+
+    If the adapter isn't on the Hub yet, we fall back to base Gemma 4.
     """
     global _models
     if _models is not None:
@@ -99,14 +106,15 @@ def _load_models() -> Models:
     from peft import PeftModel
     from transformers import AutoModelForImageTextToText, AutoTokenizer
 
-    dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
-
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_ID)
     base = AutoModelForImageTextToText.from_pretrained(
         BASE_MODEL_ID,
-        torch_dtype=dtype,
-        device_map="auto" if torch.cuda.is_available() else None,
+        torch_dtype=torch.bfloat16,
+        device_map="auto" if _HAS_CUDA else None,
+        low_cpu_mem_usage=True,
     )
+    if not _HAS_CUDA:
+        base = base.to("cpu")
 
     finetuned: object | None = None
     status = "missing"
@@ -127,11 +135,11 @@ def _load_models() -> Models:
 
 
 _ADAPTER_PENDING_MSG = (
-    "**GutWise v2 adapter is not yet published to Hugging Face Hub.** "
-    "The repo `y0sif/GutWise-v2` has not been pushed yet (the Colab notebook "
-    "that does this hasn't been run). Until then this Space falls back to "
-    "**base Gemma 4 E4B** so you can still try the UI — but the fine-tuned "
-    "behavior you see in the writeup is not what's serving you right now."
+    f"**GutWise adapter is not yet reachable on the Hub** (`{ADAPTER_ID}`). "
+    "Until the Colab push completes, the Space serves **base Gemma 4 E4B** so "
+    "the UI is still functional — but the fine-tuned behavior shown in the "
+    "writeup is not what's serving you right now. Reload the page after the "
+    "push to flip to the fine-tuned model."
 )
 
 
@@ -156,7 +164,6 @@ def _generate(model, tokenizer, messages: list[dict[str, str]]) -> str:
             temperature=TEMPERATURE,
             top_p=0.9,
         )
-    # Drop the prompt prefix
     decoded = tokenizer.decode(out[0, inputs.shape[-1] :], skip_special_tokens=True)
     return decoded.strip()
 
@@ -192,8 +199,8 @@ def chat_compare(message: str) -> tuple[str, str]:
 
     if models.finetuned is None:
         ft_out = (
-            "GutWise v2 adapter not yet on the Hub — side-by-side will activate "
-            "after the Colab push to `y0sif/GutWise-v2`."
+            f"GutWise adapter not yet on the Hub — side-by-side will activate "
+            f"after the Colab push to `{ADAPTER_ID}`."
         )
     else:
         try:
@@ -201,6 +208,13 @@ def chat_compare(message: str) -> tuple[str, str]:
         except Exception as exc:
             ft_out = f"Generation error: {exc.__class__.__name__}: {exc}"
     return base_out, ft_out
+
+
+def _refresh_banner():
+    """Runs on every page load. Reflects current Hub state without a Space restart."""
+    if _adapter_available():
+        return gr.update(visible=False, value="")
+    return gr.update(visible=True, value=f"> ⚠️ {_ADAPTER_PENDING_MSG}")
 
 
 def build_ui() -> gr.Blocks:
@@ -215,11 +229,8 @@ def build_ui() -> gr.Blocks:
         )
         gr.Markdown(f"> {DISCLAIMER}", elem_classes=["disclaimer"])
 
-        # Probe once at UI build time so the banner reflects current state.
-        # This call is cheap (single HEAD-ish request) and lets us avoid
-        # surfacing a 500 if the adapter hasn't been pushed yet.
-        if not _adapter_available():
-            gr.Markdown(f"> ⚠️ {_ADAPTER_PENDING_MSG}")
+        banner = gr.Markdown(visible=False)
+        ui.load(_refresh_banner, outputs=[banner])
 
         with gr.Tab("Chat"):
             chat = gr.ChatInterface(
@@ -230,9 +241,9 @@ def build_ui() -> gr.Blocks:
             )
             _ = chat
 
-        with gr.Tab("Side-by-side: baseline vs v2"):
+        with gr.Tab("Side-by-side: baseline vs GutWise"):
             gr.Markdown(
-                "Same prompt, base Gemma 4 E4B on the left, GutWise v2 on the right. "
+                "Same prompt, base Gemma 4 E4B on the left, GutWise on the right. "
                 "Compare empathy, completeness, and how each handles red-flag prompts."
             )
             q = gr.Textbox(
@@ -242,7 +253,7 @@ def build_ui() -> gr.Blocks:
             )
             with gr.Row():
                 base_box = gr.Textbox(label="Base Gemma 4 E4B", lines=10)
-                ft_box = gr.Textbox(label="GutWise v2 (this fine-tune)", lines=10)
+                ft_box = gr.Textbox(label="GutWise (this fine-tune)", lines=10)
             btn = gr.Button("Compare", variant="primary")
             btn.click(chat_compare, inputs=q, outputs=[base_box, ft_box])
             gr.Examples(EXAMPLES, inputs=q)
@@ -260,9 +271,9 @@ def _about_md() -> str:
 A QLoRA fine-tune (r=8, lr=5e-5, eff batch 32, 1 epoch) of `unsloth/gemma-4-E4B-it`
 on 659 audited IBS Q&A pairs.
 
-## Results (v2, 3-run mean ± σ)
+## Results (3-run mean ± σ)
 
-| Metric | Baseline E4B | GutWise v2 | Δ |
+| Metric | Baseline E4B | GutWise | Δ |
 |---|---|---|---|
 | Overall | 4.696 | **4.769 ± 0.028** | +0.073 |
 | Empathy | 4.36 | 4.47 ± 0.08 | +0.11 |

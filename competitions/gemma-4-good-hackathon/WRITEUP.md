@@ -3,7 +3,7 @@
 **Kaggle Gemma 4 Good Hackathon — Health & Sciences track**
 
 **Author:** y0sif &nbsp;|&nbsp; **License:** Apache-2.0
-**Code:** https://github.com/y0sif/GutWise &nbsp;|&nbsp; **Model:** https://huggingface.co/y0sif/GutWise-v2 &nbsp;|&nbsp; **Demo:** https://huggingface.co/spaces/y0sif/GutWise
+**Code:** https://github.com/y0sif/GutWise &nbsp;|&nbsp; **Model:** https://huggingface.co/y0sif/GutWise &nbsp;|&nbsp; **Demo:** https://huggingface.co/spaces/y0sif/GutWise
 
 > *GutWise is educational. It is not medical advice and not a diagnostic tool. Red-flag symptoms (rectal bleeding, unintentional weight loss, fever, nocturnal symptoms, onset after age 50, family history of colorectal cancer or IBD) require evaluation by a clinician.*
 
@@ -25,7 +25,7 @@ The fine-tune is intentionally small. The contribution is the methodology — *h
 
 3-run paired evaluation against base Gemma 4 E4B, 50 held-out questions, 5 dimensions (accuracy, safety, empathy, scope, completeness), single judge batch so there's no calibration drift between models.
 
-| Metric | Baseline E4B | **GutWise v2 (3-run mean ± σ)** | Δ |
+| Metric | Baseline E4B | **GutWise (3-run mean ± σ)** | Δ |
 |---|---|---|---|
 | Overall | 4.696 | **4.769 ± 0.028** | **+0.073** (beats baseline + 2σ_v2) |
 | Empathy | 4.36 | 4.47 ± 0.08 | **+0.11** |
@@ -118,8 +118,8 @@ Final val loss: 4.4 → 0.82 monotonic.
 
 The Gradio app has three components:
 
-1. **Chat** — talk to GutWise v2 with the disclaimer banner permanently visible.
-2. **Side-by-side: baseline vs v2** — same prompt to both models; you can see the empathy + completeness improvements, and you can see the red-flag handling on prompts like *"I've been losing weight without trying and there's blood in my stool — could this be IBS?"*
+1. **Chat** — talk to GutWise with the disclaimer banner permanently visible.
+2. **Side-by-side: baseline vs GutWise** — same prompt to both models; you can see the empathy + completeness improvements, and you can see the red-flag handling on prompts like *"I've been losing weight without trying and there's blood in my stool — could this be IBS?"*
 3. **About** — pipeline, eval, sources, license.
 
 The demo runs offline on a 16 GB+ GPU; it's also deployed to Hugging Face Spaces with the ZeroGPU decorator for the public submission link.
