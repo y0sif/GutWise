@@ -130,7 +130,7 @@ The demo runs offline on a 16 GB+ GPU; it's also deployed to Hugging Face Spaces
 - **English only.** Translation is out of scope.
 - **Adults only.** Pediatric IBS criteria differ; the training data is adult-focused.
 - **Base model quirks are inherited.** Some hallucinations (e.g., "*L. rhamnosus* GC69") come from base Gemma 4 and survive the fine-tune; v3 anti-hallucination pairs are planned.
-- **Held-out set has 2 duplicate red-flag questions** (eval_049/050). v3 fixes.
+- **eval_049/050 were initially flagged as duplicates** but verified to cover distinct red flags (family-history vs. fever + nocturnal symptoms).
 
 ## 10. What's next (v3 plan, deferred until post-hackathon)
 

@@ -1,6 +1,6 @@
 """Medical validation pipeline for GutWise IBS training data.
 
-Three-mode pipeline following the OxideCoder sub-agent pattern:
+Three-mode pipeline following the sub-agent pattern used in the data generator:
   1. --filters-only: Run automated medical safety filters only
   2. Default: Output judge prompts to stdout (for Claude Code sub-agents)
   3. --score DIR: Parse sub-agent results and apply thresholds
