@@ -34,8 +34,14 @@ competitions/gemma-4-good-hackathon/NOTE.md
 competitions/gemma-4-good-hackathon/SUBMISSION_CHECKLIST.md
 competitions/gemma-4-good-hackathon/VIDEO_SCRIPT.md
 competitions/gemma-4-good-hackathon/VIDEO_SCRIPT_MINIMAL.md
+competitions/gemma-4-good-hackathon/VIDEO_SPOKEN.md
 competitions/gemma-4-good-hackathon/QUICK_DEMO_GUIDE.md
 competitions/gemma-4-good-hackathon/PROJECT_DESCRIPTION.md
+competitions/gemma-4-good-hackathon/KAGGLE_NOTEBOOK.md
+competitions/gemma-4-good-hackathon/SPACE_README.md
+
+# Generated cover candidates / experimental images (COVER.svg is the official cover)
+Gemini_Generated_Image*.png
 
 # OS
 .DS_Store
